@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<!--
+
+  Demonstrates the use of property-ref to map legacy data where
+  foreign keys reference something other than the primary key of
+  the associated entity. Here we show:
+  
+  (1) A one-to-one foreign key association (prefer primary key 
+      associations)
+      
+  (2) A bidirectional one-to-many association on a key that is
+      not the primary key (prefer associations from foreign keys
+      to primary keys)
+
+-->
+
+<hibernate-mapping package="org.hibernate.test.subclasspropertyref">
+
+	<class name="Person" discriminator-value="null">
+		
+		<id name="id">
+			<generator class="hilo"/>
+		</id>
+		
+		<discriminator formula="customerId"/>
+		
+		<property name="name" length="100"/>
+		<property name="personId" length="8" unique="true"/>
+				
+		<subclass name="Customer" discriminator-value="not null">
+			<property name="customerId" length="8" unique="true"/>
+		</subclass>
+	
+	</class>
+	
+	<class name="Account">
+		<id name="accountId" length="32">
+			<generator class="uuid.hex"/>
+		</id>
+		
+		<many-to-one name="person"
+			column="personId"
+			unique="true"
+			property-ref="personId"/>
+		
+		<many-to-one name="customer"
+			column="customerPersonId"
+			unique="true"
+			property-ref="personId"/>
+		
+		<!--many-to-one name="customer"
+			column="customerId"
+			unique="true"
+			property-ref="customerId"/-->
+		
+		<property name="type" not-null="true"/>
+		
+	</class>
+
+</hibernate-mapping>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-1.6.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-antlr-1.6.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-junit-1.6.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-launcher-1.6.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/antlr-2.7.5H3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-swing-1.6.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/asm.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/asm-attrs.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/c3p0-0.8.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/cglib-2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/cleanimports.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/commons-collections-2.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/commons-logging-1.0.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/concurrent-1.3.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/connector.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/dom4j-1.5.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ehcache-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/hibernate3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jaas.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jacc-1_0-fr.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jaxen-1.1-beta-4.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jboss-cache.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jboss-common.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jboss-jmx.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jboss-system.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jdbc2_0-stdext.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jgroups-2.2.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jta.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/junit-3.8.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/log4j-1.2.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/oscache-2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/proxool-0.8.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/swarmcache-1.0rc2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/versioncheck.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/xerces-2.6.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/xml-apis.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - jconector/ant-contrib.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - jconector/c3p0-0.9.1-pre6.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - jconector/jboss-common-jdbc-wrapper.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - jconector/jboss-common-jdbc-wrapper-src.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - jconector/mysql-connector-java-5.1.16-bin.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/hibernate_jconector/Dependencias - jconector/slf4j-api-1.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/resources/Message.hbm.xml"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/resources/hibernate.properties"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/Trabalho IC/Meus documentos/WorkSpace/HibernateMessage/resources/log4j.properties"/>
+	<classpathentry kind="lib" path="resources"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+<class name="Message" table="Message">
+
+	<id name="id" column="MESSAGE_ID">
+		<generator class="increment">		
+		</generator>		
+	</id>
+
+	<property name="text" column="MESSAGE_TEXT"></property>
+	
+	<many-to-one name="nextMessage" cascade="all" column="NEXT_MESSAGE_ID">	
+	</many-to-one>		
+
+</class>
+
+</hibernate-mapping>

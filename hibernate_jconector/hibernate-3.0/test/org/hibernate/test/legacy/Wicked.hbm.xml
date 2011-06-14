@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<!-- Mapping document mainly used for testing non-reflective Binder + meta inheritance -->
+<hibernate-mapping default-lazy="false">
+  <meta attribute="global">global value</meta>
+  <meta attribute="globalnoinherit" inherit="false">only visible at top level</meta>
+    <class name="org.hibernate.test.legacy.Wicked"
+           table="WICKED"
+           schema="HR">
+           <meta attribute="implements">java.lang.Observer</meta>
+           <meta attribute="implements">java.lang.Observer</meta>           
+           <meta attribute="implements" inherit="false">org.foo.BogusVisitor</meta>                      
+           <meta attribute="extends">AuditInfo</meta>
+
+        <id name="id"
+            type="long"
+            column="EMPLOYEE_ID">
+            <generator class="assigned"/>
+        </id>
+        <version name="versionProp"       type="long"/>
+        <property name="stringProp"       type="string"/>
+        <property name="doubleProp"       type="double"/>
+	    <property name="objectDoubleProp" type="java.lang.Double"/>
+        <property name="booleanProp"       type="boolean"/>
+	    <property name="objectBooleanProp" type="java.lang.Boolean"/>
+  	    <property name="binaryProp"       type="binary"/>
+        <many-to-one name="objectManyToOne"  class="org.hibernate.test.legacy.Employee" column="MANAGER_ID"/>
+		<component name="component" class="net.sf.hibern8ide.test.MonetaryAmount">
+		  <meta attribute="componentonly" inherit="true"/>
+		  <meta attribute="allcomponent"/>
+			<property name="x" type="string"/>
+		</component>
+
+
+
+   </class>
+   
+   <class name="org.hibernate.test.legacy.Employee">
+        <composite-id class="X">
+            <key-property name="comp" type="string"/>
+        </composite-id>
+
+   </class>
+</hibernate-mapping>
+

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping 
+	package="org.hibernate.test.bidi">
+
+	<class name="Auction">
+		<id name="id">
+			<generator class="native"/>
+		</id>
+		<property name="description"/>
+		<property name="end"/>
+		<bag name="bids" inverse="true" 
+				cascade="persist">
+			<key column="auctionId"/>
+			<one-to-many class="Bid"/>
+		</bag>
+		<many-to-one name="successfulBid"/>
+	</class>
+	
+	<class name="Bid">
+		<id name="id">
+			<generator class="native"/>
+		</id>
+		<property name="amount" scale="19" precision="40"/>
+		<property name="datetime"/>
+		<many-to-one name="item" 
+				column="auctionId" 
+				cascade="persist"/>
+		<property name="successful">
+			<formula>exists(select a.id from Auction a where a.successfulBid=id)</formula>
+		</property>
+	</class>
+
+</hibernate-mapping>

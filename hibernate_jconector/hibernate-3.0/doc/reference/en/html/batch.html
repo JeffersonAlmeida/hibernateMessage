@@ -1,0 +1,65 @@
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+   <title>Chapter&nbsp;13.&nbsp;Batch processing</title><link rel="stylesheet" href="../shared/css/html.css" type="text/css"><meta name="generator" content="DocBook XSL Stylesheets V1.65.1"><link rel="home" href="index.html" title="HIBERNATE - Relational Persistence for Idiomatic Java"><link rel="up" href="index.html" title="HIBERNATE - Relational Persistence for Idiomatic Java"><link rel="previous" href="events.html" title="Chapter&nbsp;12.&nbsp;Interceptors and events"><link rel="next" href="queryhql.html" title="Chapter&nbsp;14.&nbsp;HQL: The Hibernate Query Language"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">Chapter&nbsp;13.&nbsp;Batch processing</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="events.html">Prev</a>&nbsp;</td><th width="60%" align="center">&nbsp;</th><td width="20%" align="right">&nbsp;<a accesskey="n" href="queryhql.html">Next</a></td></tr></table><hr></div><div class="chapter" lang="en"><div class="titlepage"><div><div><h2 class="title"><a name="batch"></a>Chapter&nbsp;13.&nbsp;Batch processing</h2></div></div><div></div></div><p>
+        A naive approach to inserting 100 000 rows in the database using Hibernate might 
+        look like this:
+    </p><pre class="programlisting">Session session = sessionFactory.openSession();
+Transaction tx = session.beginTransaction();
+for ( int i=0; i&lt;100000; i++ ) {
+    Customer customer = new Customer(.....);
+    session.save(customer);
+}
+tx.commit();
+session.close();</pre><p>
+        This would fall over with an <tt class="literal">OutOfMemoryException</tt> somewhere 
+        around the 50 000th row. That's because Hibernate caches all the newly inserted 
+        <tt class="literal">Customer</tt> instances in the session-level cache. 
+    </p><p>
+        In this chapter we'll show you how to avoid this problem. First, however, if you
+        are doing batch processing, it is absolutely critical that you enable the use of
+        JDBC batching, if you intend to achieve reasonable performance. Set the JDBC batch 
+        size to a reasonable number (say, 10-50):
+    </p><pre class="programlisting">hibernate.jdbc.batch_size 20</pre><p>
+        You also might like to do this kind of work in a process where interaction with 
+        the second-level cache is completely disabled:
+    </p><pre class="programlisting">hibernate.cache.use_second_level_cache false</pre><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="batch-inserts"></a>13.1.&nbsp;Batch inserts</h2></div></div><div></div></div><p>
+            When making new objects persistent, you must <tt class="literal">flush()</tt> and 
+            then <tt class="literal">clear()</tt> the session regularly, to control the size of
+            the first-level cache.
+        </p><pre class="programlisting">Session session = sessionFactory.openSession();
+Transaction tx = session.beginTransaction();
+   
+for ( int i=0; i&lt;100000; i++ ) {
+    Customer customer = new Customer(.....);
+    session.save(customer);
+    if ( i % 20 == 0 ) { //20, same as the JDBC batch size
+        //flush a batch of inserts and release memory:
+        session.flush();
+        session.clear();
+    }
+}
+   
+tx.commit();
+session.close();</pre></div><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="batch-update"></a>13.2.&nbsp;Batch updates</h2></div></div><div></div></div><p>
+            For retrieving and updating data the same ideas apply. In addition, you need to 
+            use <tt class="literal">scroll()</tt> to take advantage of server-side cursors for 
+            queries that return many rows of data.
+        </p><pre class="programlisting">Session session = sessionFactory.openSession();
+Transaction tx = session.beginTransaction();
+   
+ScrollableResults customers = session.getNamedQuery("GetCustomers")
+    .setCacheMode(CacheMode.IGNORE)
+    .scroll(ScrollMode.FORWARD_ONLY);
+int count=0;
+while ( customers.next() ) {
+    Customer customer = (Customer) customers.get(0);
+    customer.updateStuff(...);
+    if ( ++count % 20 == 0 ) {
+        //flush a batch of updates and release memory:
+        session.flush();
+        session.clear();
+    }
+}
+   
+tx.commit();
+session.close();</pre></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="events.html">Prev</a>&nbsp;</td><td width="20%" align="center"><a accesskey="u" href="index.html">Up</a></td><td width="40%" align="right">&nbsp;<a accesskey="n" href="queryhql.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">Chapter&nbsp;12.&nbsp;Interceptors and events&nbsp;</td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top">&nbsp;Chapter&nbsp;14.&nbsp;HQL: The Hibernate Query Language</td></tr></table></div></body></html>

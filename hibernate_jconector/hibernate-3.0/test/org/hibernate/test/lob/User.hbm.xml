@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="org.hibernate.test.lob">
+
+	<class name="User" table="users">
+
+		<id name="id" type="long" unsaved-value="null">
+			<generator class="increment"/>
+		</id>
+
+		<!-- We don't change the handle, so map it with update="false". -->
+		<property name="handle" unique="true" not-null="true" update="false"/>
+
+		<!-- password is a keyword in some databases, so quote it -->
+		<property name="password" column="`password`" not-null="true"/>
+
+		<property name="email"/>
+
+		<property name="serialData" column="ser_data" type="serializable"/>
+
+		<!-- Mapping for the component class Name -->
+		<component name="name">
+			<property name="firstName"/>
+			<!-- initial is a keyword in some databases, so quote it -->
+			<property name="initial" column="`initial`"/>
+			<property name="lastName"/>
+		</component>
+
+	</class>
+
+</hibernate-mapping>
