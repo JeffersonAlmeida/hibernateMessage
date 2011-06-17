@@ -30,4 +30,12 @@ public class Message {
 	public void setNextMessage(Message nextMessage) {
 		this.nextMessage = nextMessage;
 	}
+
+
+	@Override
+	public String toString() {
+		return "Message [id=" + id + ", text=" + text + ", nextMessage="
+				+ nextMessage + "]";
+	}
+	
 }

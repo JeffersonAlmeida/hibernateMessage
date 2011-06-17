@@ -14,10 +14,6 @@ public class MyHibernateSingleton {
 	public static SessionFactory getInstance(){
 		if(factory==null){
 			factory = new Configuration().configure().buildSessionFactory();
-			//configuration.addResource("hibernate/Message.hbm.xml"); //addClass(Message.class);
-			//configuration.addClass(hibernate.Message.class);
-			//configuration.setProperties(System.getProperties());
-			//factory = configuration.buildSessionFactory();
 		}
 		return factory;
 	}
