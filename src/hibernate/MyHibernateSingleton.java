@@ -13,11 +13,11 @@ public class MyHibernateSingleton {
 	
 	public static SessionFactory getInstance(){
 		if(factory==null){
-			Configuration configuration = new Configuration();
+			factory = new Configuration().configure().buildSessionFactory();
 			//configuration.addResource("hibernate/Message.hbm.xml"); //addClass(Message.class);
-			configuration.addClass(Message.class);
-			configuration.setProperties(System.getProperties());
-			factory = configuration.buildSessionFactory();
+			//configuration.addClass(hibernate.Message.class);
+			//configuration.setProperties(System.getProperties());
+			//factory = configuration.buildSessionFactory();
 		}
 		return factory;
 	}

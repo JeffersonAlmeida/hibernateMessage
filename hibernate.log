@@ -1366,3 +1366,634 @@ Caused by: java.lang.IllegalArgumentException: Superclass has no null constructo
 15:44:50,109  INFO SettingsFactory:199 - Structured second-level cache entries: enabled
 15:44:50,109  INFO SettingsFactory:203 - Query cache: disabled
 15:44:50,109  INFO SettingsFactory:214 - Statistics: disabled
+21:41:21,132  INFO Environment:460 - Hibernate 3.0
+21:41:21,136  INFO Environment:473 - hibernate.properties not found
+21:41:21,138  INFO Environment:506 - using CGLIB reflection optimizer
+21:41:21,140  INFO Environment:536 - using JDK 1.4 java.sql.Timestamp handling
+21:41:21,201  INFO Configuration:1159 - configuring from resource: /hibernate.cfg.xml
+21:41:21,202  INFO Configuration:1130 - Configuration resource: /hibernate.cfg.xml
+21:41:21,396 DEBUG DTDEntityResolver:42 - trying to locate http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd in classpath under org/hibernate/
+21:41:21,398 DEBUG DTDEntityResolver:53 - found http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd in classpath
+21:41:21,440 DEBUG Configuration:1116 - hibernate.dialect=org.hibernate.dialect.MySQLDialect
+21:41:21,441 DEBUG Configuration:1116 - hibernate.connection.driver_class=com.mysql.jdbc.Driver
+21:41:21,441 DEBUG Configuration:1116 - hibernate.connection.url=jdbc:mysql://localhost/messages?autoReconnect=true
+21:41:21,441 DEBUG Configuration:1116 - hibernate.connection.username=root
+21:41:21,442 DEBUG Configuration:1116 - hibernate.connection.password=jefferson
+21:41:21,442 DEBUG Configuration:1116 - hibernate.c3p0.max_size=10
+21:41:21,442 DEBUG Configuration:1116 - hibernate.c3p0.min_size=2
+21:41:21,443 DEBUG Configuration:1116 - hibernate.c3p0.timeout=5000
+21:41:21,443 DEBUG Configuration:1116 - hibernate.c3p0.max_statements=10
+21:41:21,443 DEBUG Configuration:1116 - hibernate.c3p0.idle_test_period=3000
+21:41:21,444 DEBUG Configuration:1116 - hibernate.c3p0.acquire_increment=2
+21:41:21,444 DEBUG Configuration:1116 - show_sql=true
+21:41:21,444 DEBUG Configuration:1116 - hibernate.generate_statistics=true
+21:41:21,445 DEBUG Configuration:1116 - hibernate.use_sql_comments=true
+21:41:21,445 DEBUG Configuration:1311 - null<-org.dom4j.tree.DefaultAttribute@e5855a [Attribute: name resource value "hibernate/Message.hbm.xml"]
+21:41:21,446  INFO Configuration:440 - Mapping resource: hibernate/Message.hbm.xml
+21:42:38,419  INFO Environment:460 - Hibernate 3.0
+21:42:38,423  INFO Environment:473 - hibernate.properties not found
+21:42:38,425  INFO Environment:506 - using CGLIB reflection optimizer
+21:42:38,427  INFO Environment:536 - using JDK 1.4 java.sql.Timestamp handling
+21:42:38,487  INFO Configuration:1159 - configuring from resource: /hibernate.cfg.xml
+21:42:38,488  INFO Configuration:1130 - Configuration resource: /hibernate.cfg.xml
+21:42:38,694 DEBUG DTDEntityResolver:42 - trying to locate http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd in classpath under org/hibernate/
+21:42:38,696 DEBUG DTDEntityResolver:53 - found http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd in classpath
+21:42:38,739 DEBUG Configuration:1116 - hibernate.dialect=org.hibernate.dialect.MySQLDialect
+21:42:38,740 DEBUG Configuration:1116 - hibernate.connection.driver_class=com.mysql.jdbc.Driver
+21:42:38,740 DEBUG Configuration:1116 - hibernate.connection.url=jdbc:mysql://localhost/messages?autoReconnect=true
+21:42:38,740 DEBUG Configuration:1116 - hibernate.connection.username=root
+21:42:38,741 DEBUG Configuration:1116 - hibernate.connection.password=jefferson
+21:42:38,741 DEBUG Configuration:1116 - hibernate.c3p0.max_size=10
+21:42:38,742 DEBUG Configuration:1116 - hibernate.c3p0.min_size=2
+21:42:38,742 DEBUG Configuration:1116 - hibernate.c3p0.timeout=5000
+21:42:38,742 DEBUG Configuration:1116 - hibernate.c3p0.max_statements=10
+21:42:38,743 DEBUG Configuration:1116 - hibernate.c3p0.idle_test_period=3000
+21:42:38,743 DEBUG Configuration:1116 - hibernate.c3p0.acquire_increment=2
+21:42:38,743 DEBUG Configuration:1116 - show_sql=true
+21:42:38,743 DEBUG Configuration:1116 - hibernate.generate_statistics=true
+21:42:38,744 DEBUG Configuration:1116 - hibernate.use_sql_comments=true
+21:42:38,744 DEBUG Configuration:1311 - null<-org.dom4j.tree.DefaultAttribute@11b9fb1 [Attribute: name resource value "hibernate/Message.hbm.xml"]
+21:42:38,745  INFO Configuration:440 - Mapping resource: hibernate/Message.hbm.xml
+21:43:00,478  INFO Environment:460 - Hibernate 3.0
+21:43:00,482  INFO Environment:473 - hibernate.properties not found
+21:43:00,484  INFO Environment:506 - using CGLIB reflection optimizer
+21:43:00,486  INFO Environment:536 - using JDK 1.4 java.sql.Timestamp handling
+21:43:00,545  INFO Configuration:1159 - configuring from resource: /hibernate.cfg.xml
+21:43:00,546  INFO Configuration:1130 - Configuration resource: /hibernate.cfg.xml
+21:43:00,741 DEBUG DTDEntityResolver:42 - trying to locate http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd in classpath under org/hibernate/
+21:43:00,742 DEBUG DTDEntityResolver:53 - found http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd in classpath
+21:43:00,790 DEBUG Configuration:1116 - hibernate.dialect=org.hibernate.dialect.MySQLDialect
+21:43:00,790 DEBUG Configuration:1116 - hibernate.connection.driver_class=com.mysql.jdbc.Driver
+21:43:00,791 DEBUG Configuration:1116 - hibernate.connection.url=jdbc:mysql://localhost/messages?autoReconnect=true
+21:43:00,791 DEBUG Configuration:1116 - hibernate.connection.username=root
+21:43:00,791 DEBUG Configuration:1116 - hibernate.connection.password=jefferson
+21:43:00,792 DEBUG Configuration:1116 - hibernate.c3p0.max_size=10
+21:43:00,792 DEBUG Configuration:1116 - hibernate.c3p0.min_size=2
+21:43:00,792 DEBUG Configuration:1116 - hibernate.c3p0.timeout=5000
+21:43:00,792 DEBUG Configuration:1116 - hibernate.c3p0.max_statements=10
+21:43:00,793 DEBUG Configuration:1116 - hibernate.c3p0.idle_test_period=3000
+21:43:00,793 DEBUG Configuration:1116 - hibernate.c3p0.acquire_increment=2
+21:43:00,793 DEBUG Configuration:1116 - show_sql=true
+21:43:00,793 DEBUG Configuration:1116 - hibernate.generate_statistics=true
+21:43:00,794 DEBUG Configuration:1116 - hibernate.use_sql_comments=true
+21:43:00,794 DEBUG Configuration:1311 - null<-org.dom4j.tree.DefaultAttribute@e5855a [Attribute: name resource value "hibernate/Message.hbm.xml"]
+21:43:00,795  INFO Configuration:440 - Mapping resource: hibernate/Message.hbm.xml
+21:43:24,217  INFO Environment:460 - Hibernate 3.0
+21:43:24,223  INFO Environment:473 - hibernate.properties not found
+21:43:24,226  INFO Environment:506 - using CGLIB reflection optimizer
+21:43:24,228  INFO Environment:536 - using JDK 1.4 java.sql.Timestamp handling
+21:43:24,295  INFO Configuration:1159 - configuring from resource: /hibernate.cfg.xml
+21:43:24,296  INFO Configuration:1130 - Configuration resource: /hibernate.cfg.xml
+21:43:24,467 DEBUG DTDEntityResolver:42 - trying to locate http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd in classpath under org/hibernate/
+21:43:24,468 DEBUG DTDEntityResolver:53 - found http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd in classpath
+21:43:24,510 DEBUG Configuration:1116 - hibernate.dialect=org.hibernate.dialect.MySQLDialect
+21:43:24,511 DEBUG Configuration:1116 - hibernate.connection.driver_class=com.mysql.jdbc.Driver
+21:43:24,511 DEBUG Configuration:1116 - hibernate.connection.url=jdbc:mysql://localhost/messages?autoReconnect=true
+21:43:24,511 DEBUG Configuration:1116 - hibernate.connection.username=root
+21:43:24,512 DEBUG Configuration:1116 - hibernate.connection.password=jefferson
+21:43:24,512 DEBUG Configuration:1116 - hibernate.c3p0.max_size=10
+21:43:24,512 DEBUG Configuration:1116 - hibernate.c3p0.min_size=2
+21:43:24,513 DEBUG Configuration:1116 - hibernate.c3p0.timeout=5000
+21:43:24,513 DEBUG Configuration:1116 - hibernate.c3p0.max_statements=10
+21:43:24,513 DEBUG Configuration:1116 - hibernate.c3p0.idle_test_period=3000
+21:43:24,514 DEBUG Configuration:1116 - hibernate.c3p0.acquire_increment=2
+21:43:24,514 DEBUG Configuration:1116 - show_sql=true
+21:43:24,514 DEBUG Configuration:1116 - hibernate.generate_statistics=true
+21:43:24,515 DEBUG Configuration:1116 - hibernate.use_sql_comments=true
+21:43:24,515 DEBUG Configuration:1311 - null<-org.dom4j.tree.DefaultAttribute@95fd19 [Attribute: name resource value "hibernate/Message.hbm.xml"]
+21:43:24,515  INFO Configuration:440 - Mapping resource: hibernate/Message.hbm.xml
+21:43:45,922  INFO Environment:460 - Hibernate 3.0
+21:43:45,926  INFO Environment:473 - hibernate.properties not found
+21:43:45,928  INFO Environment:506 - using CGLIB reflection optimizer
+21:43:45,930  INFO Environment:536 - using JDK 1.4 java.sql.Timestamp handling
+21:43:45,991  INFO Configuration:1159 - configuring from resource: /hibernate.cfg.xml
+21:43:45,991  INFO Configuration:1130 - Configuration resource: /hibernate.cfg.xml
+21:43:46,187 DEBUG DTDEntityResolver:42 - trying to locate http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd in classpath under org/hibernate/
+21:43:46,189 DEBUG DTDEntityResolver:53 - found http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd in classpath
+21:43:46,234 DEBUG Configuration:1116 - hibernate.dialect=org.hibernate.dialect.MySQLDialect
+21:43:46,234 DEBUG Configuration:1116 - hibernate.connection.driver_class=com.mysql.jdbc.Driver
+21:43:46,235 DEBUG Configuration:1116 - hibernate.connection.url=jdbc:mysql://localhost/messages?autoReconnect=true
+21:43:46,235 DEBUG Configuration:1116 - hibernate.connection.username=root
+21:43:46,236 DEBUG Configuration:1116 - hibernate.connection.password=jefferson
+21:43:46,236 DEBUG Configuration:1116 - hibernate.c3p0.max_size=10
+21:43:46,236 DEBUG Configuration:1116 - hibernate.c3p0.min_size=2
+21:43:46,237 DEBUG Configuration:1116 - hibernate.c3p0.timeout=5000
+21:43:46,237 DEBUG Configuration:1116 - hibernate.c3p0.max_statements=10
+21:43:46,237 DEBUG Configuration:1116 - hibernate.c3p0.idle_test_period=3000
+21:43:46,238 DEBUG Configuration:1116 - hibernate.c3p0.acquire_increment=2
+21:43:46,238 DEBUG Configuration:1116 - show_sql=true
+21:43:46,238 DEBUG Configuration:1116 - hibernate.generate_statistics=true
+21:43:46,238 DEBUG Configuration:1116 - hibernate.use_sql_comments=true
+21:43:46,239 DEBUG Configuration:1311 - null<-org.dom4j.tree.DefaultAttribute@95fd19 [Attribute: name resource value "hibernate/Message.hbm.xml"]
+21:43:46,239  INFO Configuration:440 - Mapping resource: hibernate/Message.hbm.xml
+21:44:08,133  INFO Environment:460 - Hibernate 3.0
+21:44:08,137  INFO Environment:473 - hibernate.properties not found
+21:44:08,139  INFO Environment:506 - using CGLIB reflection optimizer
+21:44:08,142  INFO Environment:536 - using JDK 1.4 java.sql.Timestamp handling
+21:44:08,205  INFO Configuration:1159 - configuring from resource: /hibernate.cfg.xml
+21:44:08,206  INFO Configuration:1130 - Configuration resource: /hibernate.cfg.xml
+21:44:08,394 DEBUG DTDEntityResolver:42 - trying to locate http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd in classpath under org/hibernate/
+21:44:08,395 DEBUG DTDEntityResolver:53 - found http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd in classpath
+21:44:08,439 DEBUG Configuration:1116 - hibernate.dialect=org.hibernate.dialect.MySQLDialect
+21:44:08,440 DEBUG Configuration:1116 - hibernate.connection.driver_class=com.mysql.jdbc.Driver
+21:44:08,440 DEBUG Configuration:1116 - hibernate.connection.url=jdbc:mysql://localhost/messages?autoReconnect=true
+21:44:08,440 DEBUG Configuration:1116 - hibernate.connection.username=root
+21:44:08,440 DEBUG Configuration:1116 - hibernate.connection.password=jefferson
+21:44:08,441 DEBUG Configuration:1116 - hibernate.c3p0.max_size=10
+21:44:08,441 DEBUG Configuration:1116 - hibernate.c3p0.min_size=2
+21:44:08,441 DEBUG Configuration:1116 - hibernate.c3p0.timeout=5000
+21:44:08,442 DEBUG Configuration:1116 - hibernate.c3p0.max_statements=10
+21:44:08,442 DEBUG Configuration:1116 - hibernate.c3p0.idle_test_period=3000
+21:44:08,442 DEBUG Configuration:1116 - hibernate.c3p0.acquire_increment=2
+21:44:08,443 DEBUG Configuration:1116 - show_sql=true
+21:44:08,443 DEBUG Configuration:1116 - hibernate.generate_statistics=true
+21:44:08,443 DEBUG Configuration:1116 - hibernate.use_sql_comments=true
+21:44:08,444 DEBUG Configuration:1311 - null<-org.dom4j.tree.DefaultAttribute@95fd19 [Attribute: name resource value "hibernate/Message.hbm.xml"]
+21:44:08,444  INFO Configuration:440 - Mapping resource: hibernate/Message.hbm.xml
+21:44:08,446 DEBUG DTDEntityResolver:42 - trying to locate http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd in classpath under org/hibernate/
+21:44:08,447 DEBUG DTDEntityResolver:53 - found http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd in classpath
+21:44:08,553  INFO HbmBinder:258 - Mapping class: hibernate.Message -> message
+21:44:08,567 DEBUG HbmBinder:1089 - Mapped property: id -> MESSAGE_ID
+21:44:08,576 DEBUG HbmBinder:1089 - Mapped property: text -> MESSAGE_TEXT
+21:44:08,632 DEBUG HbmBinder:1089 - Mapped property: nextMessage -> NEXT_MESSAGE_ID
+21:44:08,634  INFO Configuration:1271 - Configured SessionFactory: null
+21:44:08,634 DEBUG Configuration:1272 - properties: {hibernate.connection.password=jefferson, java.runtime.name=OpenJDK Runtime Environment, sun.boot.library.path=/usr/lib/jvm/java-6-openjdk/jre/lib/i386, java.vm.version=19.0-b09, hibernate.connection.username=root, java.vm.vendor=Sun Microsystems Inc., java.vendor.url=http://java.sun.com/, path.separator=:, java.vm.name=OpenJDK Client VM, file.encoding.pkg=sun.io, user.country=BR, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/jefferson/workspace/hibernateMessage, java.runtime.version=1.6.0_20-b20, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, hibernate.c3p0.max_statements=10, java.endorsed.dirs=/usr/lib/jvm/java-6-openjdk/jre/lib/endorsed, os.arch=i386, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Sun Microsystems Inc., os.name=Linux, hibernate.c3p0.idle_test_period=3000, sun.jnu.encoding=UTF-8, hibernate.c3p0.timeout=5000, java.library.path=/usr/lib/jvm/java-6-openjdk/jre/lib/i386/client:/usr/lib/jvm/java-6-openjdk/jre/lib/i386:/usr/lib/jvm/java-6-openjdk/jre/../lib/i386:/usr/lib/jvm/java-6-openjdk/jre/lib/i386/client:/usr/lib/jvm/java-6-openjdk/jre/lib/i386:/usr/lib/xulrunner-addons:/usr/lib/xulrunner-addons:/usr/java/packages/lib/i386:/usr/lib/jni:/lib:/usr/lib, hibernate.generate_statistics=true, java.specification.name=Java Platform API Specification, java.class.version=50.0, sun.management.compiler=HotSpot Client Compiler, os.version=2.6.32-28-generic, user.home=/home/jefferson, user.timezone=America/Sao_Paulo, java.awt.printerjob=sun.print.PSPrinterJob, file.encoding=UTF-8, java.specification.version=1.6, hibernate.c3p0.min_size=2, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, user.name=jefferson, java.class.path=/home/jefferson/workspace/hibernateMessage/bin:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-antlr-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-junit-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-launcher-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/antlr-2.7.5H3.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-swing-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/asm.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/asm-attrs.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/c3p0-0.8.5.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/cglib-2.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/cleanimports.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/commons-collections-2.1.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/commons-logging-1.0.4.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/concurrent-1.3.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/connector.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/dom4j-1.5.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ehcache-1.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/hibernate3.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jaas.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jacc-1_0-fr.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jaxen-1.1-beta-4.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jboss-cache.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jboss-common.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jboss-jmx.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jboss-system.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jdbc2_0-stdext.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jgroups-2.2.7.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jta.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/junit-3.8.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/log4j-1.2.9.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/oscache-2.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/proxool-0.8.3.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/swarmcache-1.0rc2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/versioncheck.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/xerces-2.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/xml-apis.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/ant-contrib.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/c3p0-0.9.1-pre6.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/jboss-common-jdbc-wrapper.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/jboss-common-jdbc-wrapper-src.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/mysql-connector-java-5.1.16-bin.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/slf4j-api-1.6.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate.cfg.xml:/home/jefferson/workspace/hibernateMessage/Message.hbm.xml:/home/jefferson/workspace/hibernateMessage/log4j.properties, hibernate.use_sql_comments=true, hibernate.show_sql=true, java.vm.specification.version=1.0, java.home=/usr/lib/jvm/java-6-openjdk/jre, sun.arch.data.model=32, hibernate.connection.url=jdbc:mysql://localhost/messages?autoReconnect=true, hibernate.dialect=org.hibernate.dialect.MySQLDialect, user.language=pt, java.specification.vendor=Sun Microsystems Inc., hibernate.c3p0.max_size=10, hibernate.cglib.use_reflection_optimizer=true, java.vm.info=mixed mode, sharing, java.version=1.6.0_20, java.ext.dirs=/usr/lib/jvm/java-6-openjdk/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/usr/lib/jvm/java-6-openjdk/jre/lib/resources.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rt.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jsse.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jce.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/charsets.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/netx.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/plugin.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rhino.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/modules/jdk.boot.jar:/usr/lib/jvm/java-6-openjdk/jre/classes, java.vendor=Sun Microsystems Inc., hibernate.c3p0.acquire_increment=2, file.separator=/, java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=gnome, sun.cpu.isalist=}
+21:44:08,636 DEBUG Configuration:1047 - Preparing to build session factory with filters : {}
+21:44:08,636  INFO Configuration:851 - processing extends queue
+21:44:08,636  INFO Configuration:855 - processing collection mappings
+21:44:08,637  INFO Configuration:864 - processing association property references
+21:44:08,637  INFO Configuration:893 - processing foreign key constraints
+21:44:08,638 DEBUG Configuration:940 - resolving reference to class: hibernate.Message
+21:44:08,657  INFO Dialect:91 - Using dialect: org.hibernate.dialect.MySQLDialect
+21:44:08,663 DEBUG SQLExceptionConverterFactory:52 - Using dialect defined converter
+21:44:08,668  INFO SettingsFactory:87 - Maximum outer join fetch depth: 2
+21:44:08,669  INFO SettingsFactory:90 - Default batch fetch size: 1
+21:44:08,669  INFO SettingsFactory:94 - Generate SQL with comments: enabled
+21:44:08,669  INFO SettingsFactory:98 - Order SQL updates by primary key: disabled
+21:44:08,670  INFO SettingsFactory:273 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+21:44:08,672  INFO ASTQueryTranslatorFactory:21 - Using ASTQueryTranslatorFactory
+21:44:08,674  INFO SettingsFactory:106 - Query language substitutions: {}
+21:44:08,679  INFO C3P0ConnectionProvider:50 - C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/messages?autoReconnect=true
+21:44:08,680  INFO C3P0ConnectionProvider:51 - Connection properties: {user=root, password=****}
+21:44:08,680  INFO C3P0ConnectionProvider:54 - autocommit mode: false
+21:44:09,289  INFO SettingsFactory:148 - JDBC batch size: 15
+21:44:09,290  INFO SettingsFactory:151 - JDBC batch updates for versioned data: disabled
+21:44:09,291  INFO SettingsFactory:156 - Scrollable result sets: enabled
+21:44:09,291 DEBUG SettingsFactory:160 - Wrap result sets: disabled
+21:44:09,292  INFO SettingsFactory:164 - JDBC3 getGeneratedKeys(): enabled
+21:44:09,293  INFO TransactionFactoryFactory:31 - Using default transaction strategy (direct JDBC transactions)
+21:44:09,296  INFO TransactionManagerLookupFactory:33 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+21:44:09,296  INFO SettingsFactory:176 - Automatic flush during beforeCompletion(): disabled
+21:44:09,296  INFO SettingsFactory:179 - Automatic session close at end of transaction: disabled
+21:44:09,297  INFO SettingsFactory:260 - Cache provider: org.hibernate.cache.EhCacheProvider
+21:44:09,300  INFO SettingsFactory:187 - Second-level cache: enabled
+21:44:09,307  INFO SettingsFactory:192 - Optimize cache for minimal puts: disabled
+21:44:09,307  INFO SettingsFactory:199 - Structured second-level cache entries: enabled
+21:44:09,307  INFO SettingsFactory:203 - Query cache: disabled
+21:44:09,308  INFO SettingsFactory:210 - Echoing all SQL to stdout
+21:44:09,308  INFO SettingsFactory:214 - Statistics: enabled
+21:44:09,308  INFO SettingsFactory:218 - Deleted entity synthetic identifier rollback: disabled
+21:44:09,309  INFO SettingsFactory:232 - Default entity-mode: pojo
+21:44:09,393  INFO SessionFactoryImpl:140 - building session factory
+21:44:09,395 DEBUG SessionFactoryImpl:149 - Session factory constructed with filter configurations : {}
+21:44:09,396 DEBUG SessionFactoryImpl:152 - instantiating session factory with properties: {hibernate.connection.password=jefferson, java.runtime.name=OpenJDK Runtime Environment, sun.boot.library.path=/usr/lib/jvm/java-6-openjdk/jre/lib/i386, java.vm.version=19.0-b09, hibernate.connection.username=root, java.vm.vendor=Sun Microsystems Inc., java.vendor.url=http://java.sun.com/, path.separator=:, java.vm.name=OpenJDK Client VM, file.encoding.pkg=sun.io, user.country=BR, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/jefferson/workspace/hibernateMessage, java.runtime.version=1.6.0_20-b20, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, hibernate.c3p0.max_statements=10, java.endorsed.dirs=/usr/lib/jvm/java-6-openjdk/jre/lib/endorsed, os.arch=i386, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Sun Microsystems Inc., os.name=Linux, hibernate.c3p0.idle_test_period=3000, sun.jnu.encoding=UTF-8, hibernate.c3p0.timeout=5000, java.library.path=/usr/lib/jvm/java-6-openjdk/jre/lib/i386/client:/usr/lib/jvm/java-6-openjdk/jre/lib/i386:/usr/lib/jvm/java-6-openjdk/jre/../lib/i386:/usr/lib/jvm/java-6-openjdk/jre/lib/i386/client:/usr/lib/jvm/java-6-openjdk/jre/lib/i386:/usr/lib/xulrunner-addons:/usr/lib/xulrunner-addons:/usr/java/packages/lib/i386:/usr/lib/jni:/lib:/usr/lib, hibernate.generate_statistics=true, java.specification.name=Java Platform API Specification, java.class.version=50.0, sun.management.compiler=HotSpot Client Compiler, os.version=2.6.32-28-generic, user.home=/home/jefferson, user.timezone=America/Sao_Paulo, java.awt.printerjob=sun.print.PSPrinterJob, file.encoding=UTF-8, java.specification.version=1.6, hibernate.c3p0.min_size=2, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, user.name=jefferson, java.class.path=/home/jefferson/workspace/hibernateMessage/bin:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-antlr-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-junit-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-launcher-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/antlr-2.7.5H3.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-swing-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/asm.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/asm-attrs.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/c3p0-0.8.5.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/cglib-2.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/cleanimports.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/commons-collections-2.1.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/commons-logging-1.0.4.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/concurrent-1.3.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/connector.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/dom4j-1.5.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ehcache-1.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/hibernate3.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jaas.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jacc-1_0-fr.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jaxen-1.1-beta-4.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jboss-cache.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jboss-common.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jboss-jmx.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jboss-system.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jdbc2_0-stdext.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jgroups-2.2.7.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jta.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/junit-3.8.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/log4j-1.2.9.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/oscache-2.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/proxool-0.8.3.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/swarmcache-1.0rc2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/versioncheck.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/xerces-2.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/xml-apis.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/ant-contrib.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/c3p0-0.9.1-pre6.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/jboss-common-jdbc-wrapper.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/jboss-common-jdbc-wrapper-src.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/mysql-connector-java-5.1.16-bin.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/slf4j-api-1.6.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate.cfg.xml:/home/jefferson/workspace/hibernateMessage/Message.hbm.xml:/home/jefferson/workspace/hibernateMessage/log4j.properties, hibernate.use_sql_comments=true, hibernate.show_sql=true, java.vm.specification.version=1.0, java.home=/usr/lib/jvm/java-6-openjdk/jre, sun.arch.data.model=32, hibernate.connection.url=jdbc:mysql://localhost/messages?autoReconnect=true, hibernate.dialect=org.hibernate.dialect.MySQLDialect, user.language=pt, java.specification.vendor=Sun Microsystems Inc., hibernate.c3p0.max_size=10, hibernate.cglib.use_reflection_optimizer=true, java.vm.info=mixed mode, sharing, java.version=1.6.0_20, java.ext.dirs=/usr/lib/jvm/java-6-openjdk/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/usr/lib/jvm/java-6-openjdk/jre/lib/resources.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rt.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jsse.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jce.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/charsets.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/netx.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/plugin.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rhino.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/modules/jdk.boot.jar:/usr/lib/jvm/java-6-openjdk/jre/classes, java.vendor=Sun Microsystems Inc., hibernate.c3p0.acquire_increment=2, file.separator=/, java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=gnome, sun.cpu.isalist=}
+21:44:09,408  WARN Configurator:126 - No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias%20-%20hibernate%203.0%20FINAL/ehcache-1.1.jar!/ehcache-failsafe.xml
+21:44:09,627 DEBUG BasicEntityPersister:2234 - Static SQL for entity: hibernate.Message
+21:44:09,628 DEBUG BasicEntityPersister:2236 -  Version select: /*get version hibernate.Message*/select MESSAGE_ID from message where MESSAGE_ID =?
+21:44:09,628 DEBUG BasicEntityPersister:2237 -  Snapshot select: /*get current state hibernate.Message*/select message_.MESSAGE_ID, message_.MESSAGE_TEXT as MESSAGE2_0_, message_.NEXT_MESSAGE_ID as NEXT3_0_ from message message_ where message_.MESSAGE_ID=?
+21:44:09,628 DEBUG BasicEntityPersister:2239 -  Insert 0: /*insert hibernate.Message*/insert into message (MESSAGE_TEXT, NEXT_MESSAGE_ID, MESSAGE_ID) values (?, ?, ?)
+21:44:09,628 DEBUG BasicEntityPersister:2240 -  Update 0: /*update hibernate.Message*/update message set MESSAGE_TEXT=?, NEXT_MESSAGE_ID=? where MESSAGE_ID=?
+21:44:09,629 DEBUG BasicEntityPersister:2241 -  Delete 0: /*delete hibernate.Message*/delete from message where MESSAGE_ID=?
+21:44:09,646 DEBUG EntityLoader:120 - Static select for entity hibernate.Message: /*load hibernate.Message*/select message0_.MESSAGE_ID as MESSAGE1_0_, message0_.MESSAGE_TEXT as MESSAGE2_0_0_, message0_.NEXT_MESSAGE_ID as NEXT3_0_0_ from message message0_ where message0_.MESSAGE_ID=?
+21:44:09,647 DEBUG EntityLoader:120 - Static select for entity hibernate.Message: /*load hibernate.Message*/select message0_.MESSAGE_ID as MESSAGE1_0_, message0_.MESSAGE_TEXT as MESSAGE2_0_0_, message0_.NEXT_MESSAGE_ID as NEXT3_0_0_ from message message0_ where message0_.MESSAGE_ID=?
+21:44:09,647 DEBUG EntityLoader:120 - Static select for entity hibernate.Message: /*load hibernate.Message*/select message0_.MESSAGE_ID as MESSAGE1_0_, message0_.MESSAGE_TEXT as MESSAGE2_0_0_, message0_.NEXT_MESSAGE_ID as NEXT3_0_0_ from message message0_ where message0_.MESSAGE_ID=? for update
+21:44:09,647 DEBUG EntityLoader:120 - Static select for entity hibernate.Message: /*load hibernate.Message*/select message0_.MESSAGE_ID as MESSAGE1_0_, message0_.MESSAGE_TEXT as MESSAGE2_0_0_, message0_.NEXT_MESSAGE_ID as NEXT3_0_0_ from message message0_ where message0_.MESSAGE_ID=? for update
+21:44:09,650 DEBUG SessionFactoryObjectFactory:39 - initializing class SessionFactoryObjectFactory
+21:44:09,652 DEBUG SessionFactoryObjectFactory:76 - registered: ff808181309b0e1401309b0e16300000 (unnamed)
+21:44:09,652  INFO SessionFactoryObjectFactory:82 - Not binding factory to JNDI, no JNDI name configured
+21:44:09,652 DEBUG SessionFactoryImpl:249 - instantiated session factory
+21:44:09,652  INFO SessionFactoryImpl:366 - Checking 0 named queries
+21:44:09,678 DEBUG SessionImpl:229 - opened session at timestamp: 5358679857782784
+21:44:09,684 DEBUG JDBCTransaction:46 - begin
+21:44:09,684 DEBUG AbstractBatcher:408 - opening JDBC connection
+21:44:09,685 DEBUG JDBCTransaction:50 - current autocommit status: false
+21:44:09,686 DEBUG DefaultSaveOrUpdateEventListener:159 - saving transient instance
+21:44:09,687 DEBUG IncrementGenerator:65 - fetching initial value: select max(MESSAGE_ID) from message
+21:44:09,756 DEBUG JDBCExceptionReporter:49 - could not fetch initial value [select max(MESSAGE_ID) from message]
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'messages.message' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:532)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3597)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3529)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1990)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2151)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2625)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2119)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2281)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:71)
+	at org.hibernate.id.IncrementGenerator.getNext(IncrementGenerator.java:72)
+	at org.hibernate.id.IncrementGenerator.generate(IncrementGenerator.java:43)
+	at org.hibernate.event.def.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:85)
+	at org.hibernate.event.def.DefaultSaveOrUpdateEventListener.saveWithGeneratedOrRequestedId(DefaultSaveOrUpdateEventListener.java:184)
+	at org.hibernate.event.def.DefaultSaveEventListener.saveWithGeneratedOrRequestedId(DefaultSaveEventListener.java:33)
+	at org.hibernate.event.def.DefaultSaveOrUpdateEventListener.entityIsTransient(DefaultSaveOrUpdateEventListener.java:173)
+	at org.hibernate.event.def.DefaultSaveEventListener.performSaveOrUpdate(DefaultSaveEventListener.java:27)
+	at org.hibernate.event.def.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:69)
+	at org.hibernate.impl.SessionImpl.save(SessionImpl.java:429)
+	at org.hibernate.impl.SessionImpl.save(SessionImpl.java:424)
+	at hibernate.Test.main(Test.java:16)
+21:44:09,758  WARN JDBCExceptionReporter:57 - SQL Error: 1146, SQLState: 42S02
+21:44:09,762 ERROR JDBCExceptionReporter:58 - Table 'messages.message' doesn't exist
+21:46:16,837  INFO Environment:460 - Hibernate 3.0
+21:46:16,841  INFO Environment:473 - hibernate.properties not found
+21:46:16,843  INFO Environment:506 - using CGLIB reflection optimizer
+21:46:16,845  INFO Environment:536 - using JDK 1.4 java.sql.Timestamp handling
+21:46:16,904  INFO Configuration:1159 - configuring from resource: /hibernate.cfg.xml
+21:46:16,905  INFO Configuration:1130 - Configuration resource: /hibernate.cfg.xml
+21:46:17,078 DEBUG DTDEntityResolver:42 - trying to locate http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd in classpath under org/hibernate/
+21:46:17,080 DEBUG DTDEntityResolver:53 - found http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd in classpath
+21:46:17,122 DEBUG Configuration:1116 - hibernate.dialect=org.hibernate.dialect.MySQLDialect
+21:46:17,123 DEBUG Configuration:1116 - hibernate.connection.driver_class=com.mysql.jdbc.Driver
+21:46:17,124 DEBUG Configuration:1116 - hibernate.connection.url=jdbc:mysql://localhost/messages?autoReconnect=true
+21:46:17,124 DEBUG Configuration:1116 - hibernate.connection.username=root
+21:46:17,124 DEBUG Configuration:1116 - hibernate.connection.password=jefferson
+21:46:17,125 DEBUG Configuration:1116 - hibernate.c3p0.max_size=10
+21:46:17,125 DEBUG Configuration:1116 - hibernate.c3p0.min_size=2
+21:46:17,125 DEBUG Configuration:1116 - hibernate.c3p0.timeout=5000
+21:46:17,125 DEBUG Configuration:1116 - hibernate.c3p0.max_statements=10
+21:46:17,126 DEBUG Configuration:1116 - hibernate.c3p0.idle_test_period=3000
+21:46:17,126 DEBUG Configuration:1116 - hibernate.c3p0.acquire_increment=2
+21:46:17,127 DEBUG Configuration:1116 - show_sql=true
+21:46:17,128 DEBUG Configuration:1116 - hibernate.generate_statistics=true
+21:46:17,128 DEBUG Configuration:1116 - hibernate.use_sql_comments=true
+21:46:17,128 DEBUG Configuration:1311 - null<-org.dom4j.tree.DefaultAttribute@95fd19 [Attribute: name resource value "hibernate/Message.hbm.xml"]
+21:46:17,129  INFO Configuration:440 - Mapping resource: hibernate/Message.hbm.xml
+21:46:17,132 DEBUG DTDEntityResolver:42 - trying to locate http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd in classpath under org/hibernate/
+21:46:17,132 DEBUG DTDEntityResolver:53 - found http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd in classpath
+21:46:17,217  INFO HbmBinder:258 - Mapping class: hibernate.Message -> message
+21:46:17,231 DEBUG HbmBinder:1089 - Mapped property: id -> MESSAGE_ID
+21:46:17,240 DEBUG HbmBinder:1089 - Mapped property: text -> MESSAGE_TEXT
+21:46:17,292 DEBUG HbmBinder:1089 - Mapped property: nextMessage -> NEXT_MESSAGE_ID
+21:46:17,293  INFO Configuration:1271 - Configured SessionFactory: null
+21:46:17,294 DEBUG Configuration:1272 - properties: {hibernate.connection.password=jefferson, java.runtime.name=OpenJDK Runtime Environment, sun.boot.library.path=/usr/lib/jvm/java-6-openjdk/jre/lib/i386, java.vm.version=19.0-b09, hibernate.connection.username=root, java.vm.vendor=Sun Microsystems Inc., java.vendor.url=http://java.sun.com/, path.separator=:, java.vm.name=OpenJDK Client VM, file.encoding.pkg=sun.io, user.country=BR, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/jefferson/workspace/hibernateMessage, java.runtime.version=1.6.0_20-b20, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, hibernate.c3p0.max_statements=10, java.endorsed.dirs=/usr/lib/jvm/java-6-openjdk/jre/lib/endorsed, os.arch=i386, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Sun Microsystems Inc., os.name=Linux, hibernate.c3p0.idle_test_period=3000, sun.jnu.encoding=UTF-8, hibernate.c3p0.timeout=5000, java.library.path=/usr/lib/jvm/java-6-openjdk/jre/lib/i386/client:/usr/lib/jvm/java-6-openjdk/jre/lib/i386:/usr/lib/jvm/java-6-openjdk/jre/../lib/i386:/usr/lib/jvm/java-6-openjdk/jre/lib/i386/client:/usr/lib/jvm/java-6-openjdk/jre/lib/i386:/usr/lib/xulrunner-addons:/usr/lib/xulrunner-addons:/usr/java/packages/lib/i386:/usr/lib/jni:/lib:/usr/lib, hibernate.generate_statistics=true, java.specification.name=Java Platform API Specification, java.class.version=50.0, sun.management.compiler=HotSpot Client Compiler, os.version=2.6.32-28-generic, user.home=/home/jefferson, user.timezone=America/Sao_Paulo, java.awt.printerjob=sun.print.PSPrinterJob, file.encoding=UTF-8, java.specification.version=1.6, hibernate.c3p0.min_size=2, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, user.name=jefferson, java.class.path=/home/jefferson/workspace/hibernateMessage/bin:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-antlr-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-junit-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-launcher-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/antlr-2.7.5H3.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-swing-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/asm.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/asm-attrs.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/c3p0-0.8.5.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/cglib-2.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/cleanimports.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/commons-collections-2.1.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/commons-logging-1.0.4.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/concurrent-1.3.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/connector.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/dom4j-1.5.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ehcache-1.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/hibernate3.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jaas.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jacc-1_0-fr.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jaxen-1.1-beta-4.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jboss-cache.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jboss-common.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jboss-jmx.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jboss-system.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jdbc2_0-stdext.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jgroups-2.2.7.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jta.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/junit-3.8.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/log4j-1.2.9.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/oscache-2.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/proxool-0.8.3.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/swarmcache-1.0rc2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/versioncheck.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/xerces-2.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/xml-apis.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/ant-contrib.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/c3p0-0.9.1-pre6.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/jboss-common-jdbc-wrapper.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/jboss-common-jdbc-wrapper-src.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/mysql-connector-java-5.1.16-bin.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/slf4j-api-1.6.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate.cfg.xml:/home/jefferson/workspace/hibernateMessage/Message.hbm.xml:/home/jefferson/workspace/hibernateMessage/log4j.properties, hibernate.use_sql_comments=true, hibernate.show_sql=true, java.vm.specification.version=1.0, java.home=/usr/lib/jvm/java-6-openjdk/jre, sun.arch.data.model=32, hibernate.connection.url=jdbc:mysql://localhost/messages?autoReconnect=true, hibernate.dialect=org.hibernate.dialect.MySQLDialect, user.language=pt, java.specification.vendor=Sun Microsystems Inc., hibernate.c3p0.max_size=10, hibernate.cglib.use_reflection_optimizer=true, java.vm.info=mixed mode, sharing, java.version=1.6.0_20, java.ext.dirs=/usr/lib/jvm/java-6-openjdk/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/usr/lib/jvm/java-6-openjdk/jre/lib/resources.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rt.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jsse.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jce.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/charsets.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/netx.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/plugin.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rhino.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/modules/jdk.boot.jar:/usr/lib/jvm/java-6-openjdk/jre/classes, java.vendor=Sun Microsystems Inc., hibernate.c3p0.acquire_increment=2, file.separator=/, java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=gnome, sun.cpu.isalist=}
+21:46:17,294 DEBUG Configuration:1047 - Preparing to build session factory with filters : {}
+21:46:17,295  INFO Configuration:851 - processing extends queue
+21:46:17,295  INFO Configuration:855 - processing collection mappings
+21:46:17,295  INFO Configuration:864 - processing association property references
+21:46:17,296  INFO Configuration:893 - processing foreign key constraints
+21:46:17,296 DEBUG Configuration:940 - resolving reference to class: hibernate.Message
+21:46:17,319  INFO Dialect:91 - Using dialect: org.hibernate.dialect.MySQLDialect
+21:46:17,324 DEBUG SQLExceptionConverterFactory:52 - Using dialect defined converter
+21:46:17,329  INFO SettingsFactory:87 - Maximum outer join fetch depth: 2
+21:46:17,330  INFO SettingsFactory:90 - Default batch fetch size: 1
+21:46:17,330  INFO SettingsFactory:94 - Generate SQL with comments: enabled
+21:46:17,331  INFO SettingsFactory:98 - Order SQL updates by primary key: disabled
+21:46:17,331  INFO SettingsFactory:273 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+21:46:17,334  INFO ASTQueryTranslatorFactory:21 - Using ASTQueryTranslatorFactory
+21:46:17,334  INFO SettingsFactory:106 - Query language substitutions: {}
+21:46:17,338  INFO C3P0ConnectionProvider:50 - C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/messages?autoReconnect=true
+21:46:17,338  INFO C3P0ConnectionProvider:51 - Connection properties: {user=root, password=****}
+21:46:17,339  INFO C3P0ConnectionProvider:54 - autocommit mode: false
+21:46:17,929  INFO SettingsFactory:148 - JDBC batch size: 15
+21:46:17,930  INFO SettingsFactory:151 - JDBC batch updates for versioned data: disabled
+21:46:17,931  INFO SettingsFactory:156 - Scrollable result sets: enabled
+21:46:17,931 DEBUG SettingsFactory:160 - Wrap result sets: disabled
+21:46:17,932  INFO SettingsFactory:164 - JDBC3 getGeneratedKeys(): enabled
+21:46:17,933  INFO TransactionFactoryFactory:31 - Using default transaction strategy (direct JDBC transactions)
+21:46:17,935  INFO TransactionManagerLookupFactory:33 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+21:46:17,936  INFO SettingsFactory:176 - Automatic flush during beforeCompletion(): disabled
+21:46:17,936  INFO SettingsFactory:179 - Automatic session close at end of transaction: disabled
+21:46:17,936  INFO SettingsFactory:260 - Cache provider: org.hibernate.cache.EhCacheProvider
+21:46:17,945  INFO SettingsFactory:187 - Second-level cache: enabled
+21:46:17,946  INFO SettingsFactory:192 - Optimize cache for minimal puts: disabled
+21:46:17,946  INFO SettingsFactory:199 - Structured second-level cache entries: enabled
+21:46:17,947  INFO SettingsFactory:203 - Query cache: disabled
+21:46:17,947  INFO SettingsFactory:210 - Echoing all SQL to stdout
+21:46:17,947  INFO SettingsFactory:214 - Statistics: enabled
+21:46:17,947  INFO SettingsFactory:218 - Deleted entity synthetic identifier rollback: disabled
+21:46:17,949  INFO SettingsFactory:232 - Default entity-mode: pojo
+21:46:18,036  INFO SessionFactoryImpl:140 - building session factory
+21:46:18,038 DEBUG SessionFactoryImpl:149 - Session factory constructed with filter configurations : {}
+21:46:18,039 DEBUG SessionFactoryImpl:152 - instantiating session factory with properties: {hibernate.connection.password=jefferson, java.runtime.name=OpenJDK Runtime Environment, sun.boot.library.path=/usr/lib/jvm/java-6-openjdk/jre/lib/i386, java.vm.version=19.0-b09, hibernate.connection.username=root, java.vm.vendor=Sun Microsystems Inc., java.vendor.url=http://java.sun.com/, path.separator=:, java.vm.name=OpenJDK Client VM, file.encoding.pkg=sun.io, user.country=BR, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/jefferson/workspace/hibernateMessage, java.runtime.version=1.6.0_20-b20, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, hibernate.c3p0.max_statements=10, java.endorsed.dirs=/usr/lib/jvm/java-6-openjdk/jre/lib/endorsed, os.arch=i386, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Sun Microsystems Inc., os.name=Linux, hibernate.c3p0.idle_test_period=3000, sun.jnu.encoding=UTF-8, hibernate.c3p0.timeout=5000, java.library.path=/usr/lib/jvm/java-6-openjdk/jre/lib/i386/client:/usr/lib/jvm/java-6-openjdk/jre/lib/i386:/usr/lib/jvm/java-6-openjdk/jre/../lib/i386:/usr/lib/jvm/java-6-openjdk/jre/lib/i386/client:/usr/lib/jvm/java-6-openjdk/jre/lib/i386:/usr/lib/xulrunner-addons:/usr/lib/xulrunner-addons:/usr/java/packages/lib/i386:/usr/lib/jni:/lib:/usr/lib, hibernate.generate_statistics=true, java.specification.name=Java Platform API Specification, java.class.version=50.0, sun.management.compiler=HotSpot Client Compiler, os.version=2.6.32-28-generic, user.home=/home/jefferson, user.timezone=America/Sao_Paulo, java.awt.printerjob=sun.print.PSPrinterJob, file.encoding=UTF-8, java.specification.version=1.6, hibernate.c3p0.min_size=2, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, user.name=jefferson, java.class.path=/home/jefferson/workspace/hibernateMessage/bin:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-antlr-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-junit-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-launcher-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/antlr-2.7.5H3.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-swing-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/asm.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/asm-attrs.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/c3p0-0.8.5.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/cglib-2.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/cleanimports.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/commons-collections-2.1.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/commons-logging-1.0.4.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/concurrent-1.3.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/connector.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/dom4j-1.5.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ehcache-1.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/hibernate3.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jaas.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jacc-1_0-fr.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jaxen-1.1-beta-4.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jboss-cache.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jboss-common.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jboss-jmx.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jboss-system.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jdbc2_0-stdext.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jgroups-2.2.7.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jta.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/junit-3.8.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/log4j-1.2.9.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/oscache-2.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/proxool-0.8.3.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/swarmcache-1.0rc2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/versioncheck.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/xerces-2.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/xml-apis.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/ant-contrib.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/c3p0-0.9.1-pre6.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/jboss-common-jdbc-wrapper.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/jboss-common-jdbc-wrapper-src.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/mysql-connector-java-5.1.16-bin.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/slf4j-api-1.6.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate.cfg.xml:/home/jefferson/workspace/hibernateMessage/Message.hbm.xml:/home/jefferson/workspace/hibernateMessage/log4j.properties, hibernate.use_sql_comments=true, hibernate.show_sql=true, java.vm.specification.version=1.0, java.home=/usr/lib/jvm/java-6-openjdk/jre, sun.arch.data.model=32, hibernate.connection.url=jdbc:mysql://localhost/messages?autoReconnect=true, hibernate.dialect=org.hibernate.dialect.MySQLDialect, user.language=pt, java.specification.vendor=Sun Microsystems Inc., hibernate.c3p0.max_size=10, hibernate.cglib.use_reflection_optimizer=true, java.vm.info=mixed mode, sharing, java.version=1.6.0_20, java.ext.dirs=/usr/lib/jvm/java-6-openjdk/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/usr/lib/jvm/java-6-openjdk/jre/lib/resources.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rt.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jsse.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jce.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/charsets.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/netx.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/plugin.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rhino.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/modules/jdk.boot.jar:/usr/lib/jvm/java-6-openjdk/jre/classes, java.vendor=Sun Microsystems Inc., hibernate.c3p0.acquire_increment=2, file.separator=/, java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=gnome, sun.cpu.isalist=}
+21:46:18,050  WARN Configurator:126 - No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias%20-%20hibernate%203.0%20FINAL/ehcache-1.1.jar!/ehcache-failsafe.xml
+21:46:18,270 DEBUG BasicEntityPersister:2234 - Static SQL for entity: hibernate.Message
+21:46:18,271 DEBUG BasicEntityPersister:2236 -  Version select: /*get version hibernate.Message*/select MESSAGE_ID from message where MESSAGE_ID =?
+21:46:18,271 DEBUG BasicEntityPersister:2237 -  Snapshot select: /*get current state hibernate.Message*/select message_.MESSAGE_ID, message_.MESSAGE_TEXT as MESSAGE2_0_, message_.NEXT_MESSAGE_ID as NEXT3_0_ from message message_ where message_.MESSAGE_ID=?
+21:46:18,271 DEBUG BasicEntityPersister:2239 -  Insert 0: /*insert hibernate.Message*/insert into message (MESSAGE_TEXT, NEXT_MESSAGE_ID, MESSAGE_ID) values (?, ?, ?)
+21:46:18,271 DEBUG BasicEntityPersister:2240 -  Update 0: /*update hibernate.Message*/update message set MESSAGE_TEXT=?, NEXT_MESSAGE_ID=? where MESSAGE_ID=?
+21:46:18,272 DEBUG BasicEntityPersister:2241 -  Delete 0: /*delete hibernate.Message*/delete from message where MESSAGE_ID=?
+21:46:18,288 DEBUG EntityLoader:120 - Static select for entity hibernate.Message: /*load hibernate.Message*/select message0_.MESSAGE_ID as MESSAGE1_0_, message0_.MESSAGE_TEXT as MESSAGE2_0_0_, message0_.NEXT_MESSAGE_ID as NEXT3_0_0_ from message message0_ where message0_.MESSAGE_ID=?
+21:46:18,289 DEBUG EntityLoader:120 - Static select for entity hibernate.Message: /*load hibernate.Message*/select message0_.MESSAGE_ID as MESSAGE1_0_, message0_.MESSAGE_TEXT as MESSAGE2_0_0_, message0_.NEXT_MESSAGE_ID as NEXT3_0_0_ from message message0_ where message0_.MESSAGE_ID=?
+21:46:18,290 DEBUG EntityLoader:120 - Static select for entity hibernate.Message: /*load hibernate.Message*/select message0_.MESSAGE_ID as MESSAGE1_0_, message0_.MESSAGE_TEXT as MESSAGE2_0_0_, message0_.NEXT_MESSAGE_ID as NEXT3_0_0_ from message message0_ where message0_.MESSAGE_ID=? for update
+21:46:18,290 DEBUG EntityLoader:120 - Static select for entity hibernate.Message: /*load hibernate.Message*/select message0_.MESSAGE_ID as MESSAGE1_0_, message0_.MESSAGE_TEXT as MESSAGE2_0_0_, message0_.NEXT_MESSAGE_ID as NEXT3_0_0_ from message message0_ where message0_.MESSAGE_ID=? for update
+21:46:18,294 DEBUG SessionFactoryObjectFactory:39 - initializing class SessionFactoryObjectFactory
+21:46:18,296 DEBUG SessionFactoryObjectFactory:76 - registered: ff808181309b100b01309b100cb30000 (unnamed)
+21:46:18,296  INFO SessionFactoryObjectFactory:82 - Not binding factory to JNDI, no JNDI name configured
+21:46:18,296 DEBUG SessionFactoryImpl:249 - instantiated session factory
+21:46:18,297  INFO SessionFactoryImpl:366 - Checking 0 named queries
+21:46:18,332 DEBUG SessionImpl:229 - opened session at timestamp: 5358680384704512
+21:46:18,334 DEBUG JDBCTransaction:46 - begin
+21:46:18,334 DEBUG AbstractBatcher:408 - opening JDBC connection
+21:46:18,335 DEBUG JDBCTransaction:50 - current autocommit status: false
+21:46:18,337 DEBUG DefaultSaveOrUpdateEventListener:159 - saving transient instance
+21:46:18,337 DEBUG IncrementGenerator:65 - fetching initial value: select max(MESSAGE_ID) from message
+21:46:18,394 DEBUG JDBCExceptionReporter:49 - could not fetch initial value [select max(MESSAGE_ID) from message]
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'messages.message' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:532)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3597)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3529)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1990)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2151)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2625)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2119)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2281)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:71)
+	at org.hibernate.id.IncrementGenerator.getNext(IncrementGenerator.java:72)
+	at org.hibernate.id.IncrementGenerator.generate(IncrementGenerator.java:43)
+	at org.hibernate.event.def.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:85)
+	at org.hibernate.event.def.DefaultSaveOrUpdateEventListener.saveWithGeneratedOrRequestedId(DefaultSaveOrUpdateEventListener.java:184)
+	at org.hibernate.event.def.DefaultSaveEventListener.saveWithGeneratedOrRequestedId(DefaultSaveEventListener.java:33)
+	at org.hibernate.event.def.DefaultSaveOrUpdateEventListener.entityIsTransient(DefaultSaveOrUpdateEventListener.java:173)
+	at org.hibernate.event.def.DefaultSaveEventListener.performSaveOrUpdate(DefaultSaveEventListener.java:27)
+	at org.hibernate.event.def.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:69)
+	at org.hibernate.impl.SessionImpl.save(SessionImpl.java:429)
+	at org.hibernate.impl.SessionImpl.save(SessionImpl.java:424)
+	at hibernate.Test.main(Test.java:16)
+21:46:18,397  WARN JDBCExceptionReporter:57 - SQL Error: 1146, SQLState: 42S02
+21:46:18,398 ERROR JDBCExceptionReporter:58 - Table 'messages.message' doesn't exist
+21:46:43,418  INFO Environment:460 - Hibernate 3.0
+21:46:43,423  INFO Environment:473 - hibernate.properties not found
+21:46:43,425  INFO Environment:506 - using CGLIB reflection optimizer
+21:46:43,427  INFO Environment:536 - using JDK 1.4 java.sql.Timestamp handling
+21:46:43,487  INFO Configuration:1159 - configuring from resource: /hibernate.cfg.xml
+21:46:43,488  INFO Configuration:1130 - Configuration resource: /hibernate.cfg.xml
+21:46:43,684 DEBUG DTDEntityResolver:42 - trying to locate http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd in classpath under org/hibernate/
+21:46:43,685 DEBUG DTDEntityResolver:53 - found http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd in classpath
+21:46:43,732 DEBUG Configuration:1116 - hibernate.dialect=org.hibernate.dialect.MySQLDialect
+21:46:43,733 DEBUG Configuration:1116 - hibernate.connection.driver_class=com.mysql.jdbc.Driver
+21:46:43,733 DEBUG Configuration:1116 - hibernate.connection.url=jdbc:mysql://localhost/messages?autoReconnect=true
+21:46:43,733 DEBUG Configuration:1116 - hibernate.connection.username=root
+21:46:43,734 DEBUG Configuration:1116 - hibernate.connection.password=jefferson
+21:46:43,734 DEBUG Configuration:1116 - hibernate.c3p0.max_size=10
+21:46:43,735 DEBUG Configuration:1116 - hibernate.c3p0.min_size=2
+21:46:43,735 DEBUG Configuration:1116 - hibernate.c3p0.timeout=5000
+21:46:43,735 DEBUG Configuration:1116 - hibernate.c3p0.max_statements=10
+21:46:43,736 DEBUG Configuration:1116 - hibernate.c3p0.idle_test_period=3000
+21:46:43,736 DEBUG Configuration:1116 - hibernate.c3p0.acquire_increment=2
+21:46:43,736 DEBUG Configuration:1116 - show_sql=true
+21:46:43,737 DEBUG Configuration:1116 - hibernate.generate_statistics=true
+21:46:43,737 DEBUG Configuration:1116 - hibernate.use_sql_comments=true
+21:46:43,738 DEBUG Configuration:1311 - null<-org.dom4j.tree.DefaultAttribute@11b9fb1 [Attribute: name resource value "hibernate/Message.hbm.xml"]
+21:46:43,738  INFO Configuration:440 - Mapping resource: hibernate/Message.hbm.xml
+21:46:43,742 DEBUG DTDEntityResolver:42 - trying to locate http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd in classpath under org/hibernate/
+21:46:43,743 DEBUG DTDEntityResolver:53 - found http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd in classpath
+21:46:43,833  INFO HbmBinder:258 - Mapping class: hibernate.Message -> message
+21:46:43,849 DEBUG HbmBinder:1089 - Mapped property: id -> MESSAGE_ID
+21:46:43,858 DEBUG HbmBinder:1089 - Mapped property: text -> MESSAGE_TEXT
+21:46:43,911 DEBUG HbmBinder:1089 - Mapped property: nextMessage -> NEXT_MESSAGE_ID
+21:46:43,911  INFO Configuration:1271 - Configured SessionFactory: null
+21:46:43,912 DEBUG Configuration:1272 - properties: {hibernate.connection.password=jefferson, java.runtime.name=OpenJDK Runtime Environment, sun.boot.library.path=/usr/lib/jvm/java-6-openjdk/jre/lib/i386, java.vm.version=19.0-b09, hibernate.connection.username=root, java.vm.vendor=Sun Microsystems Inc., java.vendor.url=http://java.sun.com/, path.separator=:, java.vm.name=OpenJDK Client VM, file.encoding.pkg=sun.io, user.country=BR, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/jefferson/workspace/hibernateMessage, java.runtime.version=1.6.0_20-b20, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, hibernate.c3p0.max_statements=10, java.endorsed.dirs=/usr/lib/jvm/java-6-openjdk/jre/lib/endorsed, os.arch=i386, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Sun Microsystems Inc., os.name=Linux, hibernate.c3p0.idle_test_period=3000, sun.jnu.encoding=UTF-8, hibernate.c3p0.timeout=5000, java.library.path=/usr/lib/jvm/java-6-openjdk/jre/lib/i386/client:/usr/lib/jvm/java-6-openjdk/jre/lib/i386:/usr/lib/jvm/java-6-openjdk/jre/../lib/i386:/usr/lib/jvm/java-6-openjdk/jre/lib/i386/client:/usr/lib/jvm/java-6-openjdk/jre/lib/i386:/usr/lib/xulrunner-addons:/usr/lib/xulrunner-addons:/usr/java/packages/lib/i386:/usr/lib/jni:/lib:/usr/lib, hibernate.generate_statistics=true, java.specification.name=Java Platform API Specification, java.class.version=50.0, sun.management.compiler=HotSpot Client Compiler, os.version=2.6.32-28-generic, user.home=/home/jefferson, user.timezone=America/Sao_Paulo, java.awt.printerjob=sun.print.PSPrinterJob, file.encoding=UTF-8, java.specification.version=1.6, hibernate.c3p0.min_size=2, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, user.name=jefferson, java.class.path=/home/jefferson/workspace/hibernateMessage/bin:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-antlr-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-junit-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-launcher-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/antlr-2.7.5H3.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-swing-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/asm.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/asm-attrs.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/c3p0-0.8.5.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/cglib-2.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/cleanimports.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/commons-collections-2.1.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/commons-logging-1.0.4.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/concurrent-1.3.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/connector.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/dom4j-1.5.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ehcache-1.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/hibernate3.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jaas.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jacc-1_0-fr.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jaxen-1.1-beta-4.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jboss-cache.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jboss-common.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jboss-jmx.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jboss-system.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jdbc2_0-stdext.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jgroups-2.2.7.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jta.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/junit-3.8.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/log4j-1.2.9.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/oscache-2.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/proxool-0.8.3.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/swarmcache-1.0rc2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/versioncheck.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/xerces-2.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/xml-apis.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/ant-contrib.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/c3p0-0.9.1-pre6.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/jboss-common-jdbc-wrapper.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/jboss-common-jdbc-wrapper-src.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/mysql-connector-java-5.1.16-bin.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/slf4j-api-1.6.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate.cfg.xml:/home/jefferson/workspace/hibernateMessage/Message.hbm.xml:/home/jefferson/workspace/hibernateMessage/log4j.properties, hibernate.use_sql_comments=true, hibernate.show_sql=true, java.vm.specification.version=1.0, java.home=/usr/lib/jvm/java-6-openjdk/jre, sun.arch.data.model=32, hibernate.connection.url=jdbc:mysql://localhost/messages?autoReconnect=true, hibernate.dialect=org.hibernate.dialect.MySQLDialect, user.language=pt, java.specification.vendor=Sun Microsystems Inc., hibernate.c3p0.max_size=10, hibernate.cglib.use_reflection_optimizer=true, java.vm.info=mixed mode, sharing, java.version=1.6.0_20, java.ext.dirs=/usr/lib/jvm/java-6-openjdk/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/usr/lib/jvm/java-6-openjdk/jre/lib/resources.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rt.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jsse.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jce.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/charsets.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/netx.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/plugin.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rhino.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/modules/jdk.boot.jar:/usr/lib/jvm/java-6-openjdk/jre/classes, java.vendor=Sun Microsystems Inc., hibernate.c3p0.acquire_increment=2, file.separator=/, java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=gnome, sun.cpu.isalist=}
+21:46:43,913 DEBUG Configuration:1047 - Preparing to build session factory with filters : {}
+21:46:43,914  INFO Configuration:851 - processing extends queue
+21:46:43,914  INFO Configuration:855 - processing collection mappings
+21:46:43,914  INFO Configuration:864 - processing association property references
+21:46:43,914  INFO Configuration:893 - processing foreign key constraints
+21:46:43,915 DEBUG Configuration:940 - resolving reference to class: hibernate.Message
+21:46:43,934  INFO Dialect:91 - Using dialect: org.hibernate.dialect.MySQLDialect
+21:46:43,939 DEBUG SQLExceptionConverterFactory:52 - Using dialect defined converter
+21:46:43,943  INFO SettingsFactory:87 - Maximum outer join fetch depth: 2
+21:46:43,944  INFO SettingsFactory:90 - Default batch fetch size: 1
+21:46:43,944  INFO SettingsFactory:94 - Generate SQL with comments: enabled
+21:46:43,945  INFO SettingsFactory:98 - Order SQL updates by primary key: disabled
+21:46:43,945  INFO SettingsFactory:273 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+21:46:43,947  INFO ASTQueryTranslatorFactory:21 - Using ASTQueryTranslatorFactory
+21:46:43,948  INFO SettingsFactory:106 - Query language substitutions: {}
+21:46:43,951  INFO C3P0ConnectionProvider:50 - C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/messages?autoReconnect=true
+21:46:43,951  INFO C3P0ConnectionProvider:51 - Connection properties: {user=root, password=****}
+21:46:43,952  INFO C3P0ConnectionProvider:54 - autocommit mode: false
+21:46:44,550  INFO SettingsFactory:148 - JDBC batch size: 15
+21:46:44,551  INFO SettingsFactory:151 - JDBC batch updates for versioned data: disabled
+21:46:44,551  INFO SettingsFactory:156 - Scrollable result sets: enabled
+21:46:44,552 DEBUG SettingsFactory:160 - Wrap result sets: disabled
+21:46:44,552  INFO SettingsFactory:164 - JDBC3 getGeneratedKeys(): enabled
+21:46:44,554  INFO TransactionFactoryFactory:31 - Using default transaction strategy (direct JDBC transactions)
+21:46:44,556  INFO TransactionManagerLookupFactory:33 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+21:46:44,556  INFO SettingsFactory:176 - Automatic flush during beforeCompletion(): disabled
+21:46:44,556  INFO SettingsFactory:179 - Automatic session close at end of transaction: disabled
+21:46:44,556  INFO SettingsFactory:260 - Cache provider: org.hibernate.cache.EhCacheProvider
+21:46:44,559  INFO SettingsFactory:187 - Second-level cache: enabled
+21:46:44,566  INFO SettingsFactory:192 - Optimize cache for minimal puts: disabled
+21:46:44,566  INFO SettingsFactory:199 - Structured second-level cache entries: enabled
+21:46:44,567  INFO SettingsFactory:203 - Query cache: disabled
+21:46:44,567  INFO SettingsFactory:210 - Echoing all SQL to stdout
+21:46:44,567  INFO SettingsFactory:214 - Statistics: enabled
+21:46:44,568  INFO SettingsFactory:218 - Deleted entity synthetic identifier rollback: disabled
+21:46:44,569  INFO SettingsFactory:232 - Default entity-mode: pojo
+21:46:44,644  INFO SessionFactoryImpl:140 - building session factory
+21:46:44,645 DEBUG SessionFactoryImpl:149 - Session factory constructed with filter configurations : {}
+21:46:44,646 DEBUG SessionFactoryImpl:152 - instantiating session factory with properties: {hibernate.connection.password=jefferson, java.runtime.name=OpenJDK Runtime Environment, sun.boot.library.path=/usr/lib/jvm/java-6-openjdk/jre/lib/i386, java.vm.version=19.0-b09, hibernate.connection.username=root, java.vm.vendor=Sun Microsystems Inc., java.vendor.url=http://java.sun.com/, path.separator=:, java.vm.name=OpenJDK Client VM, file.encoding.pkg=sun.io, user.country=BR, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/jefferson/workspace/hibernateMessage, java.runtime.version=1.6.0_20-b20, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, hibernate.c3p0.max_statements=10, java.endorsed.dirs=/usr/lib/jvm/java-6-openjdk/jre/lib/endorsed, os.arch=i386, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Sun Microsystems Inc., os.name=Linux, hibernate.c3p0.idle_test_period=3000, sun.jnu.encoding=UTF-8, hibernate.c3p0.timeout=5000, java.library.path=/usr/lib/jvm/java-6-openjdk/jre/lib/i386/client:/usr/lib/jvm/java-6-openjdk/jre/lib/i386:/usr/lib/jvm/java-6-openjdk/jre/../lib/i386:/usr/lib/jvm/java-6-openjdk/jre/lib/i386/client:/usr/lib/jvm/java-6-openjdk/jre/lib/i386:/usr/lib/xulrunner-addons:/usr/lib/xulrunner-addons:/usr/java/packages/lib/i386:/usr/lib/jni:/lib:/usr/lib, hibernate.generate_statistics=true, java.specification.name=Java Platform API Specification, java.class.version=50.0, sun.management.compiler=HotSpot Client Compiler, os.version=2.6.32-28-generic, user.home=/home/jefferson, user.timezone=America/Sao_Paulo, java.awt.printerjob=sun.print.PSPrinterJob, file.encoding=UTF-8, java.specification.version=1.6, hibernate.c3p0.min_size=2, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, user.name=jefferson, java.class.path=/home/jefferson/workspace/hibernateMessage/bin:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-antlr-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-junit-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-launcher-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/antlr-2.7.5H3.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-swing-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/asm.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/asm-attrs.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/c3p0-0.8.5.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/cglib-2.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/cleanimports.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/commons-collections-2.1.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/commons-logging-1.0.4.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/concurrent-1.3.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/connector.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/dom4j-1.5.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ehcache-1.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/hibernate3.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jaas.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jacc-1_0-fr.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jaxen-1.1-beta-4.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jboss-cache.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jboss-common.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jboss-jmx.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jboss-system.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jdbc2_0-stdext.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jgroups-2.2.7.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jta.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/junit-3.8.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/log4j-1.2.9.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/oscache-2.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/proxool-0.8.3.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/swarmcache-1.0rc2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/versioncheck.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/xerces-2.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/xml-apis.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/ant-contrib.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/c3p0-0.9.1-pre6.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/jboss-common-jdbc-wrapper.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/jboss-common-jdbc-wrapper-src.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/mysql-connector-java-5.1.16-bin.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/slf4j-api-1.6.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate.cfg.xml:/home/jefferson/workspace/hibernateMessage/Message.hbm.xml:/home/jefferson/workspace/hibernateMessage/log4j.properties, hibernate.use_sql_comments=true, hibernate.show_sql=true, java.vm.specification.version=1.0, java.home=/usr/lib/jvm/java-6-openjdk/jre, sun.arch.data.model=32, hibernate.connection.url=jdbc:mysql://localhost/messages?autoReconnect=true, hibernate.dialect=org.hibernate.dialect.MySQLDialect, user.language=pt, java.specification.vendor=Sun Microsystems Inc., hibernate.c3p0.max_size=10, hibernate.cglib.use_reflection_optimizer=true, java.vm.info=mixed mode, sharing, java.version=1.6.0_20, java.ext.dirs=/usr/lib/jvm/java-6-openjdk/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/usr/lib/jvm/java-6-openjdk/jre/lib/resources.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rt.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jsse.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jce.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/charsets.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/netx.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/plugin.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rhino.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/modules/jdk.boot.jar:/usr/lib/jvm/java-6-openjdk/jre/classes, java.vendor=Sun Microsystems Inc., hibernate.c3p0.acquire_increment=2, file.separator=/, java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=gnome, sun.cpu.isalist=}
+21:46:44,655  WARN Configurator:126 - No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias%20-%20hibernate%203.0%20FINAL/ehcache-1.1.jar!/ehcache-failsafe.xml
+21:46:44,868 DEBUG BasicEntityPersister:2234 - Static SQL for entity: hibernate.Message
+21:46:44,869 DEBUG BasicEntityPersister:2236 -  Version select: /*get version hibernate.Message*/select MESSAGE_ID from message where MESSAGE_ID =?
+21:46:44,869 DEBUG BasicEntityPersister:2237 -  Snapshot select: /*get current state hibernate.Message*/select message_.MESSAGE_ID, message_.MESSAGE_TEXT as MESSAGE2_0_, message_.NEXT_MESSAGE_ID as NEXT3_0_ from message message_ where message_.MESSAGE_ID=?
+21:46:44,869 DEBUG BasicEntityPersister:2239 -  Insert 0: /*insert hibernate.Message*/insert into message (MESSAGE_TEXT, NEXT_MESSAGE_ID, MESSAGE_ID) values (?, ?, ?)
+21:46:44,870 DEBUG BasicEntityPersister:2240 -  Update 0: /*update hibernate.Message*/update message set MESSAGE_TEXT=?, NEXT_MESSAGE_ID=? where MESSAGE_ID=?
+21:46:44,870 DEBUG BasicEntityPersister:2241 -  Delete 0: /*delete hibernate.Message*/delete from message where MESSAGE_ID=?
+21:46:44,887 DEBUG EntityLoader:120 - Static select for entity hibernate.Message: /*load hibernate.Message*/select message0_.MESSAGE_ID as MESSAGE1_0_, message0_.MESSAGE_TEXT as MESSAGE2_0_0_, message0_.NEXT_MESSAGE_ID as NEXT3_0_0_ from message message0_ where message0_.MESSAGE_ID=?
+21:46:44,888 DEBUG EntityLoader:120 - Static select for entity hibernate.Message: /*load hibernate.Message*/select message0_.MESSAGE_ID as MESSAGE1_0_, message0_.MESSAGE_TEXT as MESSAGE2_0_0_, message0_.NEXT_MESSAGE_ID as NEXT3_0_0_ from message message0_ where message0_.MESSAGE_ID=?
+21:46:44,888 DEBUG EntityLoader:120 - Static select for entity hibernate.Message: /*load hibernate.Message*/select message0_.MESSAGE_ID as MESSAGE1_0_, message0_.MESSAGE_TEXT as MESSAGE2_0_0_, message0_.NEXT_MESSAGE_ID as NEXT3_0_0_ from message message0_ where message0_.MESSAGE_ID=? for update
+21:46:44,889 DEBUG EntityLoader:120 - Static select for entity hibernate.Message: /*load hibernate.Message*/select message0_.MESSAGE_ID as MESSAGE1_0_, message0_.MESSAGE_TEXT as MESSAGE2_0_0_, message0_.NEXT_MESSAGE_ID as NEXT3_0_0_ from message message0_ where message0_.MESSAGE_ID=? for update
+21:46:44,892 DEBUG SessionFactoryObjectFactory:39 - initializing class SessionFactoryObjectFactory
+21:46:44,894 DEBUG SessionFactoryObjectFactory:76 - registered: ff808181309b107301309b1074990000 (unnamed)
+21:46:44,894  INFO SessionFactoryObjectFactory:82 - Not binding factory to JNDI, no JNDI name configured
+21:46:44,894 DEBUG SessionFactoryImpl:249 - instantiated session factory
+21:46:44,895  INFO SessionFactoryImpl:366 - Checking 0 named queries
+21:46:44,921 DEBUG SessionImpl:229 - opened session at timestamp: 5358680493649920
+21:46:44,926 DEBUG JDBCTransaction:46 - begin
+21:46:44,926 DEBUG AbstractBatcher:408 - opening JDBC connection
+21:46:44,927 DEBUG JDBCTransaction:50 - current autocommit status: false
+21:46:44,929 DEBUG DefaultSaveOrUpdateEventListener:159 - saving transient instance
+21:46:44,929 DEBUG IncrementGenerator:65 - fetching initial value: select max(MESSAGE_ID) from message
+21:46:44,984 DEBUG JDBCExceptionReporter:49 - could not fetch initial value [select max(MESSAGE_ID) from message]
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'messages.message' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:532)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3597)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3529)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1990)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2151)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2625)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2119)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2281)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:71)
+	at org.hibernate.id.IncrementGenerator.getNext(IncrementGenerator.java:72)
+	at org.hibernate.id.IncrementGenerator.generate(IncrementGenerator.java:43)
+	at org.hibernate.event.def.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:85)
+	at org.hibernate.event.def.DefaultSaveOrUpdateEventListener.saveWithGeneratedOrRequestedId(DefaultSaveOrUpdateEventListener.java:184)
+	at org.hibernate.event.def.DefaultSaveEventListener.saveWithGeneratedOrRequestedId(DefaultSaveEventListener.java:33)
+	at org.hibernate.event.def.DefaultSaveOrUpdateEventListener.entityIsTransient(DefaultSaveOrUpdateEventListener.java:173)
+	at org.hibernate.event.def.DefaultSaveEventListener.performSaveOrUpdate(DefaultSaveEventListener.java:27)
+	at org.hibernate.event.def.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:69)
+	at org.hibernate.impl.SessionImpl.save(SessionImpl.java:429)
+	at org.hibernate.impl.SessionImpl.save(SessionImpl.java:424)
+	at hibernate.Test.main(Test.java:16)
+21:46:44,986  WARN JDBCExceptionReporter:57 - SQL Error: 1146, SQLState: 42S02
+21:46:44,986 ERROR JDBCExceptionReporter:58 - Table 'messages.message' doesn't exist
+21:47:53,094  INFO Environment:460 - Hibernate 3.0
+21:47:53,098  INFO Environment:473 - hibernate.properties not found
+21:47:53,100  INFO Environment:506 - using CGLIB reflection optimizer
+21:47:53,102  INFO Environment:536 - using JDK 1.4 java.sql.Timestamp handling
+21:47:53,160  INFO Configuration:1159 - configuring from resource: /hibernate.cfg.xml
+21:47:53,160  INFO Configuration:1130 - Configuration resource: /hibernate.cfg.xml
+21:47:53,336 DEBUG DTDEntityResolver:42 - trying to locate http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd in classpath under org/hibernate/
+21:47:53,337 DEBUG DTDEntityResolver:53 - found http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd in classpath
+21:47:53,379 DEBUG Configuration:1116 - hibernate.dialect=org.hibernate.dialect.MySQLDialect
+21:47:53,380 DEBUG Configuration:1116 - hibernate.connection.driver_class=com.mysql.jdbc.Driver
+21:47:53,381 DEBUG Configuration:1116 - hibernate.connection.url=jdbc:mysql://localhost/messages?autoReconnect=true
+21:47:53,381 DEBUG Configuration:1116 - hibernate.connection.username=root
+21:47:53,382 DEBUG Configuration:1116 - hibernate.connection.password=jefferson
+21:47:53,382 DEBUG Configuration:1116 - hibernate.c3p0.max_size=10
+21:47:53,382 DEBUG Configuration:1116 - hibernate.c3p0.min_size=2
+21:47:53,383 DEBUG Configuration:1116 - hibernate.c3p0.timeout=5000
+21:47:53,383 DEBUG Configuration:1116 - hibernate.c3p0.max_statements=10
+21:47:53,383 DEBUG Configuration:1116 - hibernate.c3p0.idle_test_period=3000
+21:47:53,384 DEBUG Configuration:1116 - hibernate.c3p0.acquire_increment=2
+21:47:53,384 DEBUG Configuration:1116 - show_sql=true
+21:47:53,384 DEBUG Configuration:1116 - hibernate.generate_statistics=true
+21:47:53,385 DEBUG Configuration:1116 - hibernate.use_sql_comments=true
+21:47:53,385 DEBUG Configuration:1311 - null<-org.dom4j.tree.DefaultAttribute@11b9fb1 [Attribute: name resource value "hibernate/Message.hbm.xml"]
+21:47:53,385  INFO Configuration:440 - Mapping resource: hibernate/Message.hbm.xml
+21:47:53,389 DEBUG DTDEntityResolver:42 - trying to locate http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd in classpath under org/hibernate/
+21:47:53,390 DEBUG DTDEntityResolver:53 - found http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd in classpath
+21:47:53,474  INFO HbmBinder:258 - Mapping class: hibernate.Message -> message
+21:47:53,487 DEBUG HbmBinder:1089 - Mapped property: id -> MESSAGE_ID
+21:47:53,497 DEBUG HbmBinder:1089 - Mapped property: text -> MESSAGE_TEXT
+21:47:53,547 DEBUG HbmBinder:1089 - Mapped property: nextMessage -> NEXT_MESSAGE_ID
+21:47:53,548  INFO Configuration:1271 - Configured SessionFactory: null
+21:47:53,549 DEBUG Configuration:1272 - properties: {hibernate.connection.password=jefferson, java.runtime.name=OpenJDK Runtime Environment, sun.boot.library.path=/usr/lib/jvm/java-6-openjdk/jre/lib/i386, java.vm.version=19.0-b09, hibernate.connection.username=root, java.vm.vendor=Sun Microsystems Inc., java.vendor.url=http://java.sun.com/, path.separator=:, java.vm.name=OpenJDK Client VM, file.encoding.pkg=sun.io, user.country=BR, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/jefferson/workspace/hibernateMessage, java.runtime.version=1.6.0_20-b20, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, hibernate.c3p0.max_statements=10, java.endorsed.dirs=/usr/lib/jvm/java-6-openjdk/jre/lib/endorsed, os.arch=i386, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Sun Microsystems Inc., os.name=Linux, hibernate.c3p0.idle_test_period=3000, sun.jnu.encoding=UTF-8, hibernate.c3p0.timeout=5000, java.library.path=/usr/lib/jvm/java-6-openjdk/jre/lib/i386/client:/usr/lib/jvm/java-6-openjdk/jre/lib/i386:/usr/lib/jvm/java-6-openjdk/jre/../lib/i386:/usr/lib/jvm/java-6-openjdk/jre/lib/i386/client:/usr/lib/jvm/java-6-openjdk/jre/lib/i386:/usr/lib/xulrunner-addons:/usr/lib/xulrunner-addons:/usr/java/packages/lib/i386:/usr/lib/jni:/lib:/usr/lib, hibernate.generate_statistics=true, java.specification.name=Java Platform API Specification, java.class.version=50.0, sun.management.compiler=HotSpot Client Compiler, os.version=2.6.32-28-generic, user.home=/home/jefferson, user.timezone=America/Sao_Paulo, java.awt.printerjob=sun.print.PSPrinterJob, file.encoding=UTF-8, java.specification.version=1.6, hibernate.c3p0.min_size=2, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, user.name=jefferson, java.class.path=/home/jefferson/workspace/hibernateMessage/bin:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-antlr-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-junit-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-launcher-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/antlr-2.7.5H3.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-swing-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/asm.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/asm-attrs.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/c3p0-0.8.5.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/cglib-2.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/cleanimports.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/commons-collections-2.1.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/commons-logging-1.0.4.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/concurrent-1.3.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/connector.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/dom4j-1.5.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ehcache-1.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/hibernate3.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jaas.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jacc-1_0-fr.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jaxen-1.1-beta-4.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jboss-cache.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jboss-common.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jboss-jmx.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jboss-system.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jdbc2_0-stdext.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jgroups-2.2.7.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jta.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/junit-3.8.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/log4j-1.2.9.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/oscache-2.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/proxool-0.8.3.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/swarmcache-1.0rc2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/versioncheck.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/xerces-2.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/xml-apis.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/ant-contrib.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/c3p0-0.9.1-pre6.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/jboss-common-jdbc-wrapper.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/jboss-common-jdbc-wrapper-src.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/mysql-connector-java-5.1.16-bin.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/slf4j-api-1.6.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate.cfg.xml:/home/jefferson/workspace/hibernateMessage/Message.hbm.xml:/home/jefferson/workspace/hibernateMessage/log4j.properties, hibernate.use_sql_comments=true, hibernate.show_sql=true, java.vm.specification.version=1.0, java.home=/usr/lib/jvm/java-6-openjdk/jre, sun.arch.data.model=32, hibernate.connection.url=jdbc:mysql://localhost/messages?autoReconnect=true, hibernate.dialect=org.hibernate.dialect.MySQLDialect, user.language=pt, java.specification.vendor=Sun Microsystems Inc., hibernate.c3p0.max_size=10, hibernate.cglib.use_reflection_optimizer=true, java.vm.info=mixed mode, sharing, java.version=1.6.0_20, java.ext.dirs=/usr/lib/jvm/java-6-openjdk/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/usr/lib/jvm/java-6-openjdk/jre/lib/resources.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rt.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jsse.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jce.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/charsets.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/netx.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/plugin.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rhino.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/modules/jdk.boot.jar:/usr/lib/jvm/java-6-openjdk/jre/classes, java.vendor=Sun Microsystems Inc., hibernate.c3p0.acquire_increment=2, file.separator=/, java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=gnome, sun.cpu.isalist=}
+21:47:53,550 DEBUG Configuration:1047 - Preparing to build session factory with filters : {}
+21:47:53,550  INFO Configuration:851 - processing extends queue
+21:47:53,550  INFO Configuration:855 - processing collection mappings
+21:47:53,550  INFO Configuration:864 - processing association property references
+21:47:53,551  INFO Configuration:893 - processing foreign key constraints
+21:47:53,551 DEBUG Configuration:940 - resolving reference to class: hibernate.Message
+21:47:53,572  INFO Dialect:91 - Using dialect: org.hibernate.dialect.MySQLDialect
+21:47:53,577 DEBUG SQLExceptionConverterFactory:52 - Using dialect defined converter
+21:47:53,582  INFO SettingsFactory:87 - Maximum outer join fetch depth: 2
+21:47:53,583  INFO SettingsFactory:90 - Default batch fetch size: 1
+21:47:53,583  INFO SettingsFactory:94 - Generate SQL with comments: enabled
+21:47:53,583  INFO SettingsFactory:98 - Order SQL updates by primary key: disabled
+21:47:53,584  INFO SettingsFactory:273 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+21:47:53,586  INFO ASTQueryTranslatorFactory:21 - Using ASTQueryTranslatorFactory
+21:47:53,587  INFO SettingsFactory:106 - Query language substitutions: {}
+21:47:53,590  INFO C3P0ConnectionProvider:50 - C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/messages?autoReconnect=true
+21:47:53,591  INFO C3P0ConnectionProvider:51 - Connection properties: {user=root, password=****}
+21:47:53,591  INFO C3P0ConnectionProvider:54 - autocommit mode: false
+21:47:54,175  INFO SettingsFactory:148 - JDBC batch size: 15
+21:47:54,176  INFO SettingsFactory:151 - JDBC batch updates for versioned data: disabled
+21:47:54,177  INFO SettingsFactory:156 - Scrollable result sets: enabled
+21:47:54,177 DEBUG SettingsFactory:160 - Wrap result sets: disabled
+21:47:54,177  INFO SettingsFactory:164 - JDBC3 getGeneratedKeys(): enabled
+21:47:54,179  INFO TransactionFactoryFactory:31 - Using default transaction strategy (direct JDBC transactions)
+21:47:54,181  INFO TransactionManagerLookupFactory:33 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+21:47:54,182  INFO SettingsFactory:176 - Automatic flush during beforeCompletion(): disabled
+21:47:54,182  INFO SettingsFactory:179 - Automatic session close at end of transaction: disabled
+21:47:54,183  INFO SettingsFactory:260 - Cache provider: org.hibernate.cache.EhCacheProvider
+21:47:54,186  INFO SettingsFactory:187 - Second-level cache: enabled
+21:47:54,193  INFO SettingsFactory:192 - Optimize cache for minimal puts: disabled
+21:47:54,193  INFO SettingsFactory:199 - Structured second-level cache entries: enabled
+21:47:54,193  INFO SettingsFactory:203 - Query cache: disabled
+21:47:54,193  INFO SettingsFactory:210 - Echoing all SQL to stdout
+21:47:54,194  INFO SettingsFactory:214 - Statistics: enabled
+21:47:54,194  INFO SettingsFactory:218 - Deleted entity synthetic identifier rollback: disabled
+21:47:54,195  INFO SettingsFactory:232 - Default entity-mode: pojo
+21:47:54,277  INFO SessionFactoryImpl:140 - building session factory
+21:47:54,279 DEBUG SessionFactoryImpl:149 - Session factory constructed with filter configurations : {}
+21:47:54,279 DEBUG SessionFactoryImpl:152 - instantiating session factory with properties: {hibernate.connection.password=jefferson, java.runtime.name=OpenJDK Runtime Environment, sun.boot.library.path=/usr/lib/jvm/java-6-openjdk/jre/lib/i386, java.vm.version=19.0-b09, hibernate.connection.username=root, java.vm.vendor=Sun Microsystems Inc., java.vendor.url=http://java.sun.com/, path.separator=:, java.vm.name=OpenJDK Client VM, file.encoding.pkg=sun.io, user.country=BR, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/jefferson/workspace/hibernateMessage, java.runtime.version=1.6.0_20-b20, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, hibernate.c3p0.max_statements=10, java.endorsed.dirs=/usr/lib/jvm/java-6-openjdk/jre/lib/endorsed, os.arch=i386, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Sun Microsystems Inc., os.name=Linux, hibernate.c3p0.idle_test_period=3000, sun.jnu.encoding=UTF-8, hibernate.c3p0.timeout=5000, java.library.path=/usr/lib/jvm/java-6-openjdk/jre/lib/i386/client:/usr/lib/jvm/java-6-openjdk/jre/lib/i386:/usr/lib/jvm/java-6-openjdk/jre/../lib/i386:/usr/lib/jvm/java-6-openjdk/jre/lib/i386/client:/usr/lib/jvm/java-6-openjdk/jre/lib/i386:/usr/lib/xulrunner-addons:/usr/lib/xulrunner-addons:/usr/java/packages/lib/i386:/usr/lib/jni:/lib:/usr/lib, hibernate.generate_statistics=true, java.specification.name=Java Platform API Specification, java.class.version=50.0, sun.management.compiler=HotSpot Client Compiler, os.version=2.6.32-28-generic, user.home=/home/jefferson, user.timezone=America/Sao_Paulo, java.awt.printerjob=sun.print.PSPrinterJob, file.encoding=UTF-8, java.specification.version=1.6, hibernate.c3p0.min_size=2, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, user.name=jefferson, java.class.path=/home/jefferson/workspace/hibernateMessage/bin:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-antlr-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-junit-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-launcher-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/antlr-2.7.5H3.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ant-swing-1.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/asm.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/asm-attrs.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/c3p0-0.8.5.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/cglib-2.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/cleanimports.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/commons-collections-2.1.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/commons-logging-1.0.4.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/concurrent-1.3.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/connector.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/dom4j-1.5.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/ehcache-1.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/hibernate3.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jaas.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jacc-1_0-fr.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jaxen-1.1-beta-4.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jboss-cache.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jboss-common.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jboss-jmx.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jboss-system.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jdbc2_0-stdext.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jgroups-2.2.7.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/jta.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/junit-3.8.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/log4j-1.2.9.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/oscache-2.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/proxool-0.8.3.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/swarmcache-1.0rc2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/versioncheck.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/xerces-2.6.2.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - hibernate 3.0 FINAL/xml-apis.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/ant-contrib.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/c3p0-0.9.1-pre6.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/jboss-common-jdbc-wrapper.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/jboss-common-jdbc-wrapper-src.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/mysql-connector-java-5.1.16-bin.jar:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias - jconector/slf4j-api-1.6.1.jar:/home/jefferson/workspace/hibernateMessage/hibernate.cfg.xml:/home/jefferson/workspace/hibernateMessage/Message.hbm.xml:/home/jefferson/workspace/hibernateMessage/log4j.properties, hibernate.use_sql_comments=true, hibernate.show_sql=true, java.vm.specification.version=1.0, java.home=/usr/lib/jvm/java-6-openjdk/jre, sun.arch.data.model=32, hibernate.connection.url=jdbc:mysql://localhost/messages?autoReconnect=true, hibernate.dialect=org.hibernate.dialect.MySQLDialect, user.language=pt, java.specification.vendor=Sun Microsystems Inc., hibernate.c3p0.max_size=10, hibernate.cglib.use_reflection_optimizer=true, java.vm.info=mixed mode, sharing, java.version=1.6.0_20, java.ext.dirs=/usr/lib/jvm/java-6-openjdk/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/usr/lib/jvm/java-6-openjdk/jre/lib/resources.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rt.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jsse.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jce.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/charsets.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/netx.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/plugin.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rhino.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/modules/jdk.boot.jar:/usr/lib/jvm/java-6-openjdk/jre/classes, java.vendor=Sun Microsystems Inc., hibernate.c3p0.acquire_increment=2, file.separator=/, java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=gnome, sun.cpu.isalist=}
+21:47:54,293  WARN Configurator:126 - No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/home/jefferson/workspace/hibernateMessage/hibernate_jconector/Dependencias%20-%20hibernate%203.0%20FINAL/ehcache-1.1.jar!/ehcache-failsafe.xml
+21:47:54,526 DEBUG BasicEntityPersister:2234 - Static SQL for entity: hibernate.Message
+21:47:54,527 DEBUG BasicEntityPersister:2236 -  Version select: /*get version hibernate.Message*/select MESSAGE_ID from message where MESSAGE_ID =?
+21:47:54,530 DEBUG BasicEntityPersister:2237 -  Snapshot select: /*get current state hibernate.Message*/select message_.MESSAGE_ID, message_.MESSAGE_TEXT as MESSAGE2_0_, message_.NEXT_MESSAGE_ID as NEXT3_0_ from message message_ where message_.MESSAGE_ID=?
+21:47:54,533 DEBUG BasicEntityPersister:2239 -  Insert 0: /*insert hibernate.Message*/insert into message (MESSAGE_TEXT, NEXT_MESSAGE_ID, MESSAGE_ID) values (?, ?, ?)
+21:47:54,533 DEBUG BasicEntityPersister:2240 -  Update 0: /*update hibernate.Message*/update message set MESSAGE_TEXT=?, NEXT_MESSAGE_ID=? where MESSAGE_ID=?
+21:47:54,534 DEBUG BasicEntityPersister:2241 -  Delete 0: /*delete hibernate.Message*/delete from message where MESSAGE_ID=?
+21:47:54,552 DEBUG EntityLoader:120 - Static select for entity hibernate.Message: /*load hibernate.Message*/select message0_.MESSAGE_ID as MESSAGE1_0_, message0_.MESSAGE_TEXT as MESSAGE2_0_0_, message0_.NEXT_MESSAGE_ID as NEXT3_0_0_ from message message0_ where message0_.MESSAGE_ID=?
+21:47:54,553 DEBUG EntityLoader:120 - Static select for entity hibernate.Message: /*load hibernate.Message*/select message0_.MESSAGE_ID as MESSAGE1_0_, message0_.MESSAGE_TEXT as MESSAGE2_0_0_, message0_.NEXT_MESSAGE_ID as NEXT3_0_0_ from message message0_ where message0_.MESSAGE_ID=?
+21:47:54,553 DEBUG EntityLoader:120 - Static select for entity hibernate.Message: /*load hibernate.Message*/select message0_.MESSAGE_ID as MESSAGE1_0_, message0_.MESSAGE_TEXT as MESSAGE2_0_0_, message0_.NEXT_MESSAGE_ID as NEXT3_0_0_ from message message0_ where message0_.MESSAGE_ID=? for update
+21:47:54,554 DEBUG EntityLoader:120 - Static select for entity hibernate.Message: /*load hibernate.Message*/select message0_.MESSAGE_ID as MESSAGE1_0_, message0_.MESSAGE_TEXT as MESSAGE2_0_0_, message0_.NEXT_MESSAGE_ID as NEXT3_0_0_ from message message0_ where message0_.MESSAGE_ID=? for update
+21:47:54,556 DEBUG SessionFactoryObjectFactory:39 - initializing class SessionFactoryObjectFactory
+21:47:54,559 DEBUG SessionFactoryObjectFactory:76 - registered: ff808181309b118301309b1184ba0000 (unnamed)
+21:47:54,559  INFO SessionFactoryObjectFactory:82 - Not binding factory to JNDI, no JNDI name configured
+21:47:54,559 DEBUG SessionFactoryImpl:249 - instantiated session factory
+21:47:54,560  INFO SessionFactoryImpl:366 - Checking 0 named queries
+21:47:54,586 DEBUG SessionImpl:229 - opened session at timestamp: 5358680778997760
+21:47:54,592 DEBUG JDBCTransaction:46 - begin
+21:47:54,592 DEBUG AbstractBatcher:408 - opening JDBC connection
+21:47:54,593 DEBUG JDBCTransaction:50 - current autocommit status: false
+21:47:54,595 DEBUG DefaultSaveOrUpdateEventListener:159 - saving transient instance
+21:47:54,595 DEBUG IncrementGenerator:65 - fetching initial value: select max(MESSAGE_ID) from message
+21:47:54,634 DEBUG IncrementGenerator:81 - first free id: 1
+21:47:54,639 DEBUG AbstractSaveEventListener:89 - generated identifier: 1, using strategy: org.hibernate.id.IncrementGenerator
+21:47:54,640 DEBUG AbstractSaveEventListener:132 - saving [hibernate.Message#1]
+21:47:54,644 DEBUG Cascades:806 - processing cascade ACTION_SAVE_UPDATE for: hibernate.Message
+21:47:54,645 DEBUG Cascades:831 - done processing cascade ACTION_SAVE_UPDATE for: hibernate.Message
+21:47:54,652 DEBUG Cascades:806 - processing cascade ACTION_SAVE_UPDATE for: hibernate.Message
+21:47:54,653 DEBUG Cascades:831 - done processing cascade ACTION_SAVE_UPDATE for: hibernate.Message
+21:47:54,653 DEBUG JDBCTransaction:83 - commit
+21:47:54,653 DEBUG SessionImpl:292 - automatically flushing session
+21:47:54,654 DEBUG AbstractFlushingEventListener:52 - flushing session
+21:47:54,654 DEBUG AbstractFlushingEventListener:102 - processing flush-time cascades
+21:47:54,655 DEBUG Cascades:806 - processing cascade ACTION_SAVE_UPDATE for: hibernate.Message
+21:47:54,655 DEBUG Cascades:831 - done processing cascade ACTION_SAVE_UPDATE for: hibernate.Message
+21:47:54,656 DEBUG AbstractFlushingEventListener:150 - dirty checking collections
+21:47:54,656 DEBUG AbstractFlushingEventListener:167 - Flushing entities and processing referenced collections
+21:47:54,658 DEBUG AbstractFlushingEventListener:203 - Processing unreferenced collections
+21:47:54,658 DEBUG AbstractFlushingEventListener:217 - Scheduling collection removes/(re)creates/updates
+21:47:54,658 DEBUG AbstractFlushingEventListener:79 - Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
+21:47:54,659 DEBUG AbstractFlushingEventListener:85 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+21:47:54,660 DEBUG Printer:83 - listing entities:
+21:47:54,660 DEBUG Printer:90 - hibernate.Message{id=1, text=Hello World!, nextMessage=null}
+21:47:54,661 DEBUG AbstractFlushingEventListener:267 - executing flush
+21:47:54,661 DEBUG BasicEntityPersister:1838 - Inserting entity: [hibernate.Message#1]
+21:47:54,662 DEBUG AbstractBatcher:276 - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+21:47:54,662 DEBUG SQL:310 - /*insert hibernate.Message*/insert into message (MESSAGE_TEXT, NEXT_MESSAGE_ID, MESSAGE_ID) values (?, ?, ?)
+21:47:54,663 DEBUG AbstractBatcher:364 - preparing statement
+21:47:54,664 DEBUG BasicEntityPersister:1627 - Dehydrating entity: [hibernate.Message#1]
+21:47:54,665 DEBUG AbstractBatcher:27 - Adding to batch
+21:47:54,668 DEBUG AbstractBatcher:54 - Executing batch size: 1
+21:47:54,669 DEBUG AbstractBatcher:284 - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+21:47:54,669 DEBUG AbstractBatcher:392 - closing statement
+21:47:54,669 DEBUG AbstractFlushingEventListener:294 - post flush
+21:47:54,670 DEBUG JDBCContext:208 - before transaction completion
+21:47:54,670 DEBUG SessionImpl:337 - before transaction completion
+21:47:54,670 DEBUG JDBCTransaction:96 - committed JDBC Connection
+21:47:54,670 DEBUG JDBCContext:213 - after transaction completion
+21:47:54,671 DEBUG SessionImpl:353 - after transaction completion
+21:47:54,671 DEBUG SessionImpl:246 - closing session
+21:47:54,671 DEBUG AbstractBatcher:423 - closing JDBC connection (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)
+21:47:54,674 DEBUG JDBCContext:213 - after transaction completion
+21:47:54,675 DEBUG SessionImpl:353 - after transaction completion

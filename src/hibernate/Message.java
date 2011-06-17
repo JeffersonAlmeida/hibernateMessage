@@ -6,7 +6,7 @@ public class Message {
 	private String text;
 	private Message nextMessage;	
 	
-	private Message() {	}
+	public Message() {	}
 	
 	
 	public Message(String text) {
